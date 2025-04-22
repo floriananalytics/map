@@ -1,0 +1,4456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_28d4ed873948339ca47b1a6716dadbf5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_28d4ed873948339ca47b1a6716dadbf5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_28d4ed873948339ca47b1a6716dadbf5 = L.map(
+                "map_28d4ed873948339ca47b1a6716dadbf5",
+                {
+                    center: [51.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e20667bd0a7fac70dfa79873f8d2eec = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1e20667bd0a7fac70dfa79873f8d2eec.addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var marker_75727d037409fce0ab596d03d41cb556 = L.marker(
+                [54.3799738, 10.342193],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_822e99aa64d4d01155e1a3beefb73011 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bbd771ee65d92cbb895d55a850176d3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3065c5cf1dcfcb11c543f1b55085f566 = $(`<div id="html_3065c5cf1dcfcb11c543f1b55085f566" style="width: 100.0%; height: 100.0%;"><b>Fiefbergen</b></div>`)[0];
+                popup_1bbd771ee65d92cbb895d55a850176d3.setContent(html_3065c5cf1dcfcb11c543f1b55085f566);
+            
+        
+
+        marker_75727d037409fce0ab596d03d41cb556.bindPopup(popup_1bbd771ee65d92cbb895d55a850176d3)
+        ;
+
+        
+    
+    
+                marker_75727d037409fce0ab596d03d41cb556.setIcon(icon_822e99aa64d4d01155e1a3beefb73011);
+            
+    
+            var marker_896a58edd168c51d5e99548d74b44cf0 = L.marker(
+                [53.9093621, 13.3042965],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ad1297a9cdfa2d9282e9527c06aa6ac1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fc64f13aab27ec217124bd859139e8b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a993c70e0fbf80b3c3100ebc79df2fa4 = $(`<div id="html_a993c70e0fbf80b3c3100ebc79df2fa4" style="width: 100.0%; height: 100.0%;"><b>Müssentin</b><br>Leistung: 9.075 MW</div>`)[0];
+                popup_5fc64f13aab27ec217124bd859139e8b.setContent(html_a993c70e0fbf80b3c3100ebc79df2fa4);
+            
+        
+
+        marker_896a58edd168c51d5e99548d74b44cf0.bindPopup(popup_5fc64f13aab27ec217124bd859139e8b)
+        ;
+
+        
+    
+    
+                marker_896a58edd168c51d5e99548d74b44cf0.setIcon(icon_ad1297a9cdfa2d9282e9527c06aa6ac1);
+            
+    
+            var marker_112cadb6a221c8c610674a5ed17821b6 = L.marker(
+                [53.8328659, 13.755449],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2e3ccce25d9fa97594384245945926e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59bfe35f55be5155012c7a2b7bde49fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6b0dfea9c1a7a5eef6de243c1557cee6 = $(`<div id="html_6b0dfea9c1a7a5eef6de243c1557cee6" style="width: 100.0%; height: 100.0%;"><b>Bargischow</b></div>`)[0];
+                popup_59bfe35f55be5155012c7a2b7bde49fa.setContent(html_6b0dfea9c1a7a5eef6de243c1557cee6);
+            
+        
+
+        marker_112cadb6a221c8c610674a5ed17821b6.bindPopup(popup_59bfe35f55be5155012c7a2b7bde49fa)
+        ;
+
+        
+    
+    
+                marker_112cadb6a221c8c610674a5ed17821b6.setIcon(icon_2e3ccce25d9fa97594384245945926e5);
+            
+    
+            var marker_732885c054c1009d506f7d947a5b542a = L.marker(
+                [53.6820915, 14.077945],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_1b5b5758092db94393cf63cbf1ff513c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ae0f2cec87a6a57d257dff1d2212e7c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dc3caa4ea2f577908840063130b0dfc0 = $(`<div id="html_dc3caa4ea2f577908840063130b0dfc0" style="width: 100.0%; height: 100.0%;"><b>Eggesin</b><br>Leistung: 9.979 MW</div>`)[0];
+                popup_6ae0f2cec87a6a57d257dff1d2212e7c.setContent(html_dc3caa4ea2f577908840063130b0dfc0);
+            
+        
+
+        marker_732885c054c1009d506f7d947a5b542a.bindPopup(popup_6ae0f2cec87a6a57d257dff1d2212e7c)
+        ;
+
+        
+    
+    
+                marker_732885c054c1009d506f7d947a5b542a.setIcon(icon_1b5b5758092db94393cf63cbf1ff513c);
+            
+    
+            var marker_a65f34fef0fff7e0124e16e995bc5122 = L.marker(
+                [53.5262049, 13.6971428],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b1eae3c76b1baa0cbd18097658a9f35d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_938f13a67b8d31c131a627c12ee3f4c3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_49def14938931f39d38891d5c757c043 = $(`<div id="html_49def14938931f39d38891d5c757c043" style="width: 100.0%; height: 100.0%;"><b>Lauenhagen </b></div>`)[0];
+                popup_938f13a67b8d31c131a627c12ee3f4c3.setContent(html_49def14938931f39d38891d5c757c043);
+            
+        
+
+        marker_a65f34fef0fff7e0124e16e995bc5122.bindPopup(popup_938f13a67b8d31c131a627c12ee3f4c3)
+        ;
+
+        
+    
+    
+                marker_a65f34fef0fff7e0124e16e995bc5122.setIcon(icon_b1eae3c76b1baa0cbd18097658a9f35d);
+            
+    
+            var marker_1be6989298b7d2ee96d67c0e0810d763 = L.marker(
+                [53.5323862, 13.5563039],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_bf93a14008ec7021ba231ff550d56745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28037ac59053fa847a1b1f74fa913558 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16a5eb55b81e62660cbb59ea3995f9d6 = $(`<div id="html_16a5eb55b81e62660cbb59ea3995f9d6" style="width: 100.0%; height: 100.0%;"><b>Ulrichshof </b><br>Leistung: 6.6 MW</div>`)[0];
+                popup_28037ac59053fa847a1b1f74fa913558.setContent(html_16a5eb55b81e62660cbb59ea3995f9d6);
+            
+        
+
+        marker_1be6989298b7d2ee96d67c0e0810d763.bindPopup(popup_28037ac59053fa847a1b1f74fa913558)
+        ;
+
+        
+    
+    
+                marker_1be6989298b7d2ee96d67c0e0810d763.setIcon(icon_bf93a14008ec7021ba231ff550d56745);
+            
+    
+            var marker_21e9f64a22a799d455e5a6d4c65ed5f1 = L.marker(
+                [53.3811391, 13.0329971],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c2edd2e37d764393edd717ed46be5046 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9273f5a595af2c8a173ca6851e99645 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_26d7307193d04e3c92543029378be0d3 = $(`<div id="html_26d7307193d04e3c92543029378be0d3" style="width: 100.0%; height: 100.0%;"><b>Sophienhof </b><br>Leistung: 8.7 MW</div>`)[0];
+                popup_b9273f5a595af2c8a173ca6851e99645.setContent(html_26d7307193d04e3c92543029378be0d3);
+            
+        
+
+        marker_21e9f64a22a799d455e5a6d4c65ed5f1.bindPopup(popup_b9273f5a595af2c8a173ca6851e99645)
+        ;
+
+        
+    
+    
+                marker_21e9f64a22a799d455e5a6d4c65ed5f1.setIcon(icon_c2edd2e37d764393edd717ed46be5046);
+            
+    
+            var marker_05073b4fd5ba8edd6677613621b2a57f = L.marker(
+                [52.6898358, 14.2466244],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_7f81a8f0033309d7ca78d5be6bef7aea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6c6290a59b617a0a2d6a684d4f5a8b8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b96a7fab1137ca2abd422bc43ebc05a = $(`<div id="html_4b96a7fab1137ca2abd422bc43ebc05a" style="width: 100.0%; height: 100.0%;"><b>Alttrebbin</b><br>Leistung: 150.0 MW</div>`)[0];
+                popup_a6c6290a59b617a0a2d6a684d4f5a8b8.setContent(html_4b96a7fab1137ca2abd422bc43ebc05a);
+            
+        
+
+        marker_05073b4fd5ba8edd6677613621b2a57f.bindPopup(popup_a6c6290a59b617a0a2d6a684d4f5a8b8)
+        ;
+
+        
+    
+    
+                marker_05073b4fd5ba8edd6677613621b2a57f.setIcon(icon_7f81a8f0033309d7ca78d5be6bef7aea);
+            
+    
+            var marker_a7e98c89d6e6d94ccb5d8b1c23d4bb19 = L.marker(
+                [52.6757161, 9.6778688],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c961826a26be79a0195d63e37ce90038 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a12acc7201cce86d28e67f7d260caf6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9f89318126a3f850862e370d52cf78d7 = $(`<div id="html_9f89318126a3f850862e370d52cf78d7" style="width: 100.0%; height: 100.0%;"><b>Buchholz </b></div>`)[0];
+                popup_3a12acc7201cce86d28e67f7d260caf6.setContent(html_9f89318126a3f850862e370d52cf78d7);
+            
+        
+
+        marker_a7e98c89d6e6d94ccb5d8b1c23d4bb19.bindPopup(popup_3a12acc7201cce86d28e67f7d260caf6)
+        ;
+
+        
+    
+    
+                marker_a7e98c89d6e6d94ccb5d8b1c23d4bb19.setIcon(icon_c961826a26be79a0195d63e37ce90038);
+            
+    
+            var marker_d288e5772f36fe70d436fad009b6e275 = L.marker(
+                [52.6379728, 14.1830446],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_bcbcae42bedf3ebf80fd96b9ac007988 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52b03801f978145a652c8283a26cd6ab = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b6fa300a9167362acfe660b1453bf801 = $(`<div id="html_b6fa300a9167362acfe660b1453bf801" style="width: 100.0%; height: 100.0%;"><b>Gottesgabe </b><br>Leistung: 153.0 MW</div>`)[0];
+                popup_52b03801f978145a652c8283a26cd6ab.setContent(html_b6fa300a9167362acfe660b1453bf801);
+            
+        
+
+        marker_d288e5772f36fe70d436fad009b6e275.bindPopup(popup_52b03801f978145a652c8283a26cd6ab)
+        ;
+
+        
+    
+    
+                marker_d288e5772f36fe70d436fad009b6e275.setIcon(icon_bcbcae42bedf3ebf80fd96b9ac007988);
+            
+    
+            var marker_eb406c7bc6e476ced03c7c5eddba6297 = L.marker(
+                [52.632172, 13.7688322],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_5d5ce8f3bd903365367a1c9eef02d109 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e397f2a2fe422077f3eabc3995d6785 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5f36a4381a9dd56dcccbfbccb44bff4 = $(`<div id="html_b5f36a4381a9dd56dcccbfbccb44bff4" style="width: 100.0%; height: 100.0%;"><b>Werneuchen Flugplatz</b></div>`)[0];
+                popup_9e397f2a2fe422077f3eabc3995d6785.setContent(html_b5f36a4381a9dd56dcccbfbccb44bff4);
+            
+        
+
+        marker_eb406c7bc6e476ced03c7c5eddba6297.bindPopup(popup_9e397f2a2fe422077f3eabc3995d6785)
+        ;
+
+        
+    
+    
+                marker_eb406c7bc6e476ced03c7c5eddba6297.setIcon(icon_5d5ce8f3bd903365367a1c9eef02d109);
+            
+    
+            var marker_b8134d94afcde0293e680a1043bb6ef4 = L.marker(
+                [52.6469764, 13.7011716],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_78e7683f0f97bdacb0f6331455f4459b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b85309b331d1b1a29360b78abb9322f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a322ddf898bbdd9827ec755eee3ce235 = $(`<div id="html_a322ddf898bbdd9827ec755eee3ce235" style="width: 100.0%; height: 100.0%;"><b>Weesow-Willmersdorf</b><br>Leistung: 187.0 MW</div>`)[0];
+                popup_6b85309b331d1b1a29360b78abb9322f.setContent(html_a322ddf898bbdd9827ec755eee3ce235);
+            
+        
+
+        marker_b8134d94afcde0293e680a1043bb6ef4.bindPopup(popup_6b85309b331d1b1a29360b78abb9322f)
+        ;
+
+        
+    
+    
+                marker_b8134d94afcde0293e680a1043bb6ef4.setIcon(icon_78e7683f0f97bdacb0f6331455f4459b);
+            
+    
+            var marker_4fe16da23e0fd8c7a96d141ca33578e4 = L.marker(
+                [52.5678, 14.183945],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_29377f018bb89f2d09ea4a86452c52de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a94777ee1c40277b344c4d51e6757424 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_46824234d1d8349fab0f2e546031746e = $(`<div id="html_46824234d1d8349fab0f2e546031746e" style="width: 100.0%; height: 100.0%;"><b>Münchenberg-Hermersdorf</b></div>`)[0];
+                popup_a94777ee1c40277b344c4d51e6757424.setContent(html_46824234d1d8349fab0f2e546031746e);
+            
+        
+
+        marker_4fe16da23e0fd8c7a96d141ca33578e4.bindPopup(popup_a94777ee1c40277b344c4d51e6757424)
+        ;
+
+        
+    
+    
+                marker_4fe16da23e0fd8c7a96d141ca33578e4.setIcon(icon_29377f018bb89f2d09ea4a86452c52de);
+            
+    
+            var marker_3bc56c5eca1c5c0b7c2dcd3d97413555 = L.marker(
+                [53.0530327, 13.9475249],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_39cef0bbd75c5994b5a4c37e86d6f2c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74b4d2270c1dd150326053aebf59db5e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_57321ab3cd84a2dfc714d682d661e04f = $(`<div id="html_57321ab3cd84a2dfc714d682d661e04f" style="width: 100.0%; height: 100.0%;"><b>Görlsdorf</b></div>`)[0];
+                popup_74b4d2270c1dd150326053aebf59db5e.setContent(html_57321ab3cd84a2dfc714d682d661e04f);
+            
+        
+
+        marker_3bc56c5eca1c5c0b7c2dcd3d97413555.bindPopup(popup_74b4d2270c1dd150326053aebf59db5e)
+        ;
+
+        
+    
+    
+                marker_3bc56c5eca1c5c0b7c2dcd3d97413555.setIcon(icon_39cef0bbd75c5994b5a4c37e86d6f2c4);
+            
+    
+            var marker_beaac240b77eb9e36d7c79fcab84e62e = L.marker(
+                [52.4948224, 14.4361769],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b3d33675dc440990502548b6eb4a0591 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc31e8dd31baf868946bead5b4e877aa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_be5c8c2e83b8d122f85130fc7c774653 = $(`<div id="html_be5c8c2e83b8d122f85130fc7c774653" style="width: 100.0%; height: 100.0%;"><b>Lindendorf</b><br>Leistung: 6.8 MW</div>`)[0];
+                popup_bc31e8dd31baf868946bead5b4e877aa.setContent(html_be5c8c2e83b8d122f85130fc7c774653);
+            
+        
+
+        marker_beaac240b77eb9e36d7c79fcab84e62e.bindPopup(popup_bc31e8dd31baf868946bead5b4e877aa)
+        ;
+
+        
+    
+    
+                marker_beaac240b77eb9e36d7c79fcab84e62e.setIcon(icon_b3d33675dc440990502548b6eb4a0591);
+            
+    
+            var marker_1c0a1a9ac9a2f83e6750b28ff8ca6d09 = L.marker(
+                [52.4765878, 12.9880207],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_fe2584ec01fb72413a72e24edcfd4f1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_436a5aeb08a845134d5bb004a1d65256 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3201489d7ed05f3ef3c10c16e426eadf = $(`<div id="html_3201489d7ed05f3ef3c10c16e426eadf" style="width: 100.0%; height: 100.0%;"><b>Satzkorn</b></div>`)[0];
+                popup_436a5aeb08a845134d5bb004a1d65256.setContent(html_3201489d7ed05f3ef3c10c16e426eadf);
+            
+        
+
+        marker_1c0a1a9ac9a2f83e6750b28ff8ca6d09.bindPopup(popup_436a5aeb08a845134d5bb004a1d65256)
+        ;
+
+        
+    
+    
+                marker_1c0a1a9ac9a2f83e6750b28ff8ca6d09.setIcon(icon_fe2584ec01fb72413a72e24edcfd4f1e);
+            
+    
+            var marker_17cbf855cb5eaa16491005bb731474e5 = L.marker(
+                [51.8680114, 13.9689477],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_e6718434ec200c281b9061a635b38396 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88541530f7930252cff40b6c1f5d891b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82dfaae4443b157f2d8b9fccbe9bfe2a = $(`<div id="html_82dfaae4443b157f2d8b9fccbe9bfe2a" style="width: 100.0%; height: 100.0%;"><b>Lübbenau </b></div>`)[0];
+                popup_88541530f7930252cff40b6c1f5d891b.setContent(html_82dfaae4443b157f2d8b9fccbe9bfe2a);
+            
+        
+
+        marker_17cbf855cb5eaa16491005bb731474e5.bindPopup(popup_88541530f7930252cff40b6c1f5d891b)
+        ;
+
+        
+    
+    
+                marker_17cbf855cb5eaa16491005bb731474e5.setIcon(icon_e6718434ec200c281b9061a635b38396);
+            
+    
+            var marker_d7eab6240e4d84c6151d11e171bf807a = L.marker(
+                [51.77941, 14.077019],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_39be510f1d0a9da36fab671ae53a90fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_030745e67d57a20bb3cc6769fdf92e54 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d5c47415c98e8d626d2bd8fb61c369cd = $(`<div id="html_d5c47415c98e8d626d2bd8fb61c369cd" style="width: 100.0%; height: 100.0%;"><b>Göritz-Koßwig-Vetschau</b></div>`)[0];
+                popup_030745e67d57a20bb3cc6769fdf92e54.setContent(html_d5c47415c98e8d626d2bd8fb61c369cd);
+            
+        
+
+        marker_d7eab6240e4d84c6151d11e171bf807a.bindPopup(popup_030745e67d57a20bb3cc6769fdf92e54)
+        ;
+
+        
+    
+    
+                marker_d7eab6240e4d84c6151d11e171bf807a.setIcon(icon_39be510f1d0a9da36fab671ae53a90fe);
+            
+    
+            var marker_01871ea3d79b0b4fef7c45ad8699fe9a = L.marker(
+                [51.7010378, 13.5961466],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ee5f18d28181ab7c751bdc0119ef2876 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7cf1eea0b780fcee5fda39803d27c466 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d4073ed4600417c96f78ea7a78006c60 = $(`<div id="html_d4073ed4600417c96f78ea7a78006c60" style="width: 100.0%; height: 100.0%;"><b>Sonnenwalde</b></div>`)[0];
+                popup_7cf1eea0b780fcee5fda39803d27c466.setContent(html_d4073ed4600417c96f78ea7a78006c60);
+            
+        
+
+        marker_01871ea3d79b0b4fef7c45ad8699fe9a.bindPopup(popup_7cf1eea0b780fcee5fda39803d27c466)
+        ;
+
+        
+    
+    
+                marker_01871ea3d79b0b4fef7c45ad8699fe9a.setIcon(icon_ee5f18d28181ab7c751bdc0119ef2876);
+            
+    
+            var marker_6661003459988a3c0b98902e3dcbb506 = L.marker(
+                [52.3516369, 12.6281431],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_a88f9b0ae1f3f7d54250b30bbb3f80d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa2d253fc196826ff46d23ea391084d5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_20ac15d5e8b8ed85fcaa78b67687b1a2 = $(`<div id="html_20ac15d5e8b8ed85fcaa78b67687b1a2" style="width: 100.0%; height: 100.0%;"><b>Prützke</b></div>`)[0];
+                popup_fa2d253fc196826ff46d23ea391084d5.setContent(html_20ac15d5e8b8ed85fcaa78b67687b1a2);
+            
+        
+
+        marker_6661003459988a3c0b98902e3dcbb506.bindPopup(popup_fa2d253fc196826ff46d23ea391084d5)
+        ;
+
+        
+    
+    
+                marker_6661003459988a3c0b98902e3dcbb506.setIcon(icon_a88f9b0ae1f3f7d54250b30bbb3f80d3);
+            
+    
+            var marker_bd8ec58b53c11c2aa90890d069a57fcd = L.marker(
+                [52.373369, 12.6375692],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_31e21af28bd7052e87a4c614b2837106 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36c25dddff50bd180431254b1a5407eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f96f1fd92960eb00203515b9b596d8ca = $(`<div id="html_f96f1fd92960eb00203515b9b596d8ca" style="width: 100.0%; height: 100.0%;"><b>Rietz b. Lehnin</b></div>`)[0];
+                popup_36c25dddff50bd180431254b1a5407eb.setContent(html_f96f1fd92960eb00203515b9b596d8ca);
+            
+        
+
+        marker_bd8ec58b53c11c2aa90890d069a57fcd.bindPopup(popup_36c25dddff50bd180431254b1a5407eb)
+        ;
+
+        
+    
+    
+                marker_bd8ec58b53c11c2aa90890d069a57fcd.setIcon(icon_31e21af28bd7052e87a4c614b2837106);
+            
+    
+            var marker_0df86ba71ff7806f04c0492e7f2605e2 = L.marker(
+                [52.4819723, 12.4701672],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_f1bc2f41973a3a9393eb3c94ea1b85f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4b0ccdca4f5c6ded1b5f50e3f90183e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4df18da210da225e6bf650be7a429a07 = $(`<div id="html_4df18da210da225e6bf650be7a429a07" style="width: 100.0%; height: 100.0%;"><b>Fohrde</b></div>`)[0];
+                popup_f4b0ccdca4f5c6ded1b5f50e3f90183e.setContent(html_4df18da210da225e6bf650be7a429a07);
+            
+        
+
+        marker_0df86ba71ff7806f04c0492e7f2605e2.bindPopup(popup_f4b0ccdca4f5c6ded1b5f50e3f90183e)
+        ;
+
+        
+    
+    
+                marker_0df86ba71ff7806f04c0492e7f2605e2.setIcon(icon_f1bc2f41973a3a9393eb3c94ea1b85f3);
+            
+    
+            var marker_415c888e8e38108a9d79a45df2037d19 = L.marker(
+                [52.427862, 12.209378],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_38f63cdeb0b314c66fb4c9deed8accb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5b0bf69260101b268abdc49a648b51bc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_81157c63c661ca4eb08d56f70d53020c = $(`<div id="html_81157c63c661ca4eb08d56f70d53020c" style="width: 100.0%; height: 100.0%;"><b>Bensdorf-Vehlen</b></div>`)[0];
+                popup_5b0bf69260101b268abdc49a648b51bc.setContent(html_81157c63c661ca4eb08d56f70d53020c);
+            
+        
+
+        marker_415c888e8e38108a9d79a45df2037d19.bindPopup(popup_5b0bf69260101b268abdc49a648b51bc)
+        ;
+
+        
+    
+    
+                marker_415c888e8e38108a9d79a45df2037d19.setIcon(icon_38f63cdeb0b314c66fb4c9deed8accb3);
+            
+    
+            var marker_a9670a03dc9ba3478573d11f564dac0f = L.marker(
+                [51.8509411, 11.6999623],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_09fc89c483ae3cefc28635d591d208ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20670766fc9bac47ce76103c146ce34b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_431e5fa18851c15fdef1ec0d35a129e6 = $(`<div id="html_431e5fa18851c15fdef1ec0d35a129e6" style="width: 100.0%; height: 100.0%;"><b>Neugattersleben</b></div>`)[0];
+                popup_20670766fc9bac47ce76103c146ce34b.setContent(html_431e5fa18851c15fdef1ec0d35a129e6);
+            
+        
+
+        marker_a9670a03dc9ba3478573d11f564dac0f.bindPopup(popup_20670766fc9bac47ce76103c146ce34b)
+        ;
+
+        
+    
+    
+                marker_a9670a03dc9ba3478573d11f564dac0f.setIcon(icon_09fc89c483ae3cefc28635d591d208ad);
+            
+    
+            var marker_5fd9e861d25e6af174bf042eeba74417 = L.marker(
+                [52.0894929, 14.431547],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_143e733072f1af1c20c1fb4368c62d8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_deee8448b80d43541c341eac4b28b16a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ca5e8658f4380a719c2331470fe8047c = $(`<div id="html_ca5e8658f4380a719c2331470fe8047c" style="width: 100.0%; height: 100.0%;"><b>Chossewitz</b></div>`)[0];
+                popup_deee8448b80d43541c341eac4b28b16a.setContent(html_ca5e8658f4380a719c2331470fe8047c);
+            
+        
+
+        marker_5fd9e861d25e6af174bf042eeba74417.bindPopup(popup_deee8448b80d43541c341eac4b28b16a)
+        ;
+
+        
+    
+    
+                marker_5fd9e861d25e6af174bf042eeba74417.setIcon(icon_143e733072f1af1c20c1fb4368c62d8e);
+            
+    
+            var marker_5c99880ad616df1b86a77e6831a02a65 = L.marker(
+                [51.4893883, 14.7205321],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_bd37763ed3eced93d26def5cbba291a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef821e80b3e3f0384dbec0b02eb44f7a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_56830acab6d1a7eb81c4cf20f3ea8b1f = $(`<div id="html_56830acab6d1a7eb81c4cf20f3ea8b1f" style="width: 100.0%; height: 100.0%;"><b>Weißkeißel</b></div>`)[0];
+                popup_ef821e80b3e3f0384dbec0b02eb44f7a.setContent(html_56830acab6d1a7eb81c4cf20f3ea8b1f);
+            
+        
+
+        marker_5c99880ad616df1b86a77e6831a02a65.bindPopup(popup_ef821e80b3e3f0384dbec0b02eb44f7a)
+        ;
+
+        
+    
+    
+                marker_5c99880ad616df1b86a77e6831a02a65.setIcon(icon_bd37763ed3eced93d26def5cbba291a3);
+            
+    
+            var marker_82832e834b4ce9b186fd99cee1e5bfa1 = L.marker(
+                [50.8286715, 13.6172344],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c4eb22b8d150d01136c60b37ba053199 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4850614fd3f9caead51a4f5c9c04e754 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_450c6d4bf10b063216c4cb766f8f0ced = $(`<div id="html_450c6d4bf10b063216c4cb766f8f0ced" style="width: 100.0%; height: 100.0%;"><b>Hennersdorf</b></div>`)[0];
+                popup_4850614fd3f9caead51a4f5c9c04e754.setContent(html_450c6d4bf10b063216c4cb766f8f0ced);
+            
+        
+
+        marker_82832e834b4ce9b186fd99cee1e5bfa1.bindPopup(popup_4850614fd3f9caead51a4f5c9c04e754)
+        ;
+
+        
+    
+    
+                marker_82832e834b4ce9b186fd99cee1e5bfa1.setIcon(icon_c4eb22b8d150d01136c60b37ba053199);
+            
+    
+            var marker_6ff32d24295c0b747c8b65ee855fc071 = L.marker(
+                [51.6110951, 13.649493],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_df3f691449c528ea37afd1894793e9ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a187b8ba758e5aeda90530f4e2d6091e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_551988233d4bbf3d2964523929aaba2a = $(`<div id="html_551988233d4bbf3d2964523929aaba2a" style="width: 100.0%; height: 100.0%;"><b>Eichholz </b></div>`)[0];
+                popup_a187b8ba758e5aeda90530f4e2d6091e.setContent(html_551988233d4bbf3d2964523929aaba2a);
+            
+        
+
+        marker_6ff32d24295c0b747c8b65ee855fc071.bindPopup(popup_a187b8ba758e5aeda90530f4e2d6091e)
+        ;
+
+        
+    
+    
+                marker_6ff32d24295c0b747c8b65ee855fc071.setIcon(icon_df3f691449c528ea37afd1894793e9ea);
+            
+    
+            var marker_ec52ee65455c06a33d1d6b3d46a9ecac = L.marker(
+                [51.6102659, 13.5984082],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_895132b63707837cd3ab9b4a6d9edfb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a094e22af3ca143125c6c9848baef946 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a2717d7082f2fe93170c171d9a93b2ea = $(`<div id="html_a2717d7082f2fe93170c171d9a93b2ea" style="width: 100.0%; height: 100.0%;"><b>Doberlug Lugau</b></div>`)[0];
+                popup_a094e22af3ca143125c6c9848baef946.setContent(html_a2717d7082f2fe93170c171d9a93b2ea);
+            
+        
+
+        marker_ec52ee65455c06a33d1d6b3d46a9ecac.bindPopup(popup_a094e22af3ca143125c6c9848baef946)
+        ;
+
+        
+    
+    
+                marker_ec52ee65455c06a33d1d6b3d46a9ecac.setIcon(icon_895132b63707837cd3ab9b4a6d9edfb0);
+            
+    
+            var marker_7ba9edfe2b0958fb23c57ed5b50353e2 = L.marker(
+                [51.5841177, 13.1751006],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b45690b538c526a2e7df3845210938a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8711e315be0de3bfec8b908321a91633 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0c81406aa80a4536a4e0b3d551843dc4 = $(`<div id="html_0c81406aa80a4536a4e0b3d551843dc4" style="width: 100.0%; height: 100.0%;"><b>Rehfeld </b></div>`)[0];
+                popup_8711e315be0de3bfec8b908321a91633.setContent(html_0c81406aa80a4536a4e0b3d551843dc4);
+            
+        
+
+        marker_7ba9edfe2b0958fb23c57ed5b50353e2.bindPopup(popup_8711e315be0de3bfec8b908321a91633)
+        ;
+
+        
+    
+    
+                marker_7ba9edfe2b0958fb23c57ed5b50353e2.setIcon(icon_b45690b538c526a2e7df3845210938a2);
+            
+    
+            var marker_df63803daab0eb95ffa8f7b0c74ab0dd = L.marker(
+                [51.4009428, 13.7211783],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_3a78e06d848dc149d219b99bf199bb7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b56e3bc9d93a0a74918c67b007fe26f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0f4eda617de4f520964a1951e73775a3 = $(`<div id="html_0f4eda617de4f520964a1951e73775a3" style="width: 100.0%; height: 100.0%;"><b>Lindenau</b></div>`)[0];
+                popup_0b56e3bc9d93a0a74918c67b007fe26f.setContent(html_0f4eda617de4f520964a1951e73775a3);
+            
+        
+
+        marker_df63803daab0eb95ffa8f7b0c74ab0dd.bindPopup(popup_0b56e3bc9d93a0a74918c67b007fe26f)
+        ;
+
+        
+    
+    
+                marker_df63803daab0eb95ffa8f7b0c74ab0dd.setIcon(icon_3a78e06d848dc149d219b99bf199bb7f);
+            
+    
+            var marker_63da0217f9412c4f331b1ffeae8bb887 = L.marker(
+                [51.3845593, 13.7936854],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_1282490fd6cc4e60bbe563541a9559d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52dd6e9e6a7baa99720286c7d86a5e4f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0b18ec85a7a7ab12af31059038bd5ba7 = $(`<div id="html_0b18ec85a7a7ab12af31059038bd5ba7" style="width: 100.0%; height: 100.0%;"><b>Kroppen</b></div>`)[0];
+                popup_52dd6e9e6a7baa99720286c7d86a5e4f.setContent(html_0b18ec85a7a7ab12af31059038bd5ba7);
+            
+        
+
+        marker_63da0217f9412c4f331b1ffeae8bb887.bindPopup(popup_52dd6e9e6a7baa99720286c7d86a5e4f)
+        ;
+
+        
+    
+    
+                marker_63da0217f9412c4f331b1ffeae8bb887.setIcon(icon_1282490fd6cc4e60bbe563541a9559d9);
+            
+    
+            var marker_6024cbb671f823de9dcfd3933ec507c6 = L.marker(
+                [51.5581272, 13.0046538],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_33b1f4bbb038a30aa4d32cd94d8093d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9fdd5d16356691f457d337c67c944c4e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_82cb2fe450f725b26d713535f2b69ce9 = $(`<div id="html_82cb2fe450f725b26d713535f2b69ce9" style="width: 100.0%; height: 100.0%;"><b>Torgau</b><br>Leistung: 4.7 MW</div>`)[0];
+                popup_9fdd5d16356691f457d337c67c944c4e.setContent(html_82cb2fe450f725b26d713535f2b69ce9);
+            
+        
+
+        marker_6024cbb671f823de9dcfd3933ec507c6.bindPopup(popup_9fdd5d16356691f457d337c67c944c4e)
+        ;
+
+        
+    
+    
+                marker_6024cbb671f823de9dcfd3933ec507c6.setIcon(icon_33b1f4bbb038a30aa4d32cd94d8093d8);
+            
+    
+            var marker_1121428d97785d6be8a29b8c01c807dc = L.marker(
+                [51.4431641, 9.760091],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_90ff7c845103ab387e2bf00a25336fea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_359059cc5de875b4044dedea156b4843 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1ee8121d866f3788d9c092179da8c23a = $(`<div id="html_1ee8121d866f3788d9c092179da8c23a" style="width: 100.0%; height: 100.0%;"><b>Meensen</b></div>`)[0];
+                popup_359059cc5de875b4044dedea156b4843.setContent(html_1ee8121d866f3788d9c092179da8c23a);
+            
+        
+
+        marker_1121428d97785d6be8a29b8c01c807dc.bindPopup(popup_359059cc5de875b4044dedea156b4843)
+        ;
+
+        
+    
+    
+                marker_1121428d97785d6be8a29b8c01c807dc.setIcon(icon_90ff7c845103ab387e2bf00a25336fea);
+            
+    
+            var marker_e51d9d46bbbed9ebbf37e6c6b5dc55ff = L.marker(
+                [48.4325167, 12.938381],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c00ba4adea80c0b0da0cabf41f4549d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e17daaa52475ef7e705ecf6de2575142 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_236425ab56d28cb89fb33ab2c6958d9c = $(`<div id="html_236425ab56d28cb89fb33ab2c6958d9c" style="width: 100.0%; height: 100.0%;"><b>Pfarrkirchen</b></div>`)[0];
+                popup_e17daaa52475ef7e705ecf6de2575142.setContent(html_236425ab56d28cb89fb33ab2c6958d9c);
+            
+        
+
+        marker_e51d9d46bbbed9ebbf37e6c6b5dc55ff.bindPopup(popup_e17daaa52475ef7e705ecf6de2575142)
+        ;
+
+        
+    
+    
+                marker_e51d9d46bbbed9ebbf37e6c6b5dc55ff.setIcon(icon_c00ba4adea80c0b0da0cabf41f4549d7);
+            
+    
+            var marker_9706faae3e58cae3f6a2be97c9625907 = L.marker(
+                [49.6135225, 11.5109171],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2ebd47f4ac3f89b07b9457eda4a2a9d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2e550e820d044177879280b62db7f2f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8fff23893863819ba14d4a62ac7d3ccd = $(`<div id="html_8fff23893863819ba14d4a62ac7d3ccd" style="width: 100.0%; height: 100.0%;"><b>Velden</b></div>`)[0];
+                popup_a2e550e820d044177879280b62db7f2f.setContent(html_8fff23893863819ba14d4a62ac7d3ccd);
+            
+        
+
+        marker_9706faae3e58cae3f6a2be97c9625907.bindPopup(popup_a2e550e820d044177879280b62db7f2f)
+        ;
+
+        
+    
+    
+                marker_9706faae3e58cae3f6a2be97c9625907.setIcon(icon_2ebd47f4ac3f89b07b9457eda4a2a9d3);
+            
+    
+            var marker_e95907ccd5c1d48f5de37df25051f9c6 = L.marker(
+                [48.3919795, 12.2161354],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ef49b7b2e8d77fe4fb224b91572ce2f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce50d294b6521f3ca14ffcc06bb3b0e8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8376714f7ca771d6b728973774d58f58 = $(`<div id="html_8376714f7ca771d6b728973774d58f58" style="width: 100.0%; height: 100.0%;"><b>Neufraunhofen</b></div>`)[0];
+                popup_ce50d294b6521f3ca14ffcc06bb3b0e8.setContent(html_8376714f7ca771d6b728973774d58f58);
+            
+        
+
+        marker_e95907ccd5c1d48f5de37df25051f9c6.bindPopup(popup_ce50d294b6521f3ca14ffcc06bb3b0e8)
+        ;
+
+        
+    
+    
+                marker_e95907ccd5c1d48f5de37df25051f9c6.setIcon(icon_ef49b7b2e8d77fe4fb224b91572ce2f3);
+            
+    
+            var marker_d029ed37539b0fade6f81ba42f177ab4 = L.marker(
+                [50.1940031, 10.61076],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b6327c71de18c4617621338618dc8bf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be9f53b367b759def8b8d702a0ef3ef4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_27733f3e3669a0c297aa878aae90ed95 = $(`<div id="html_27733f3e3669a0c297aa878aae90ed95" style="width: 100.0%; height: 100.0%;"><b>Birkenfeld </b><br>Leistung: 5.7 MW</div>`)[0];
+                popup_be9f53b367b759def8b8d702a0ef3ef4.setContent(html_27733f3e3669a0c297aa878aae90ed95);
+            
+        
+
+        marker_d029ed37539b0fade6f81ba42f177ab4.bindPopup(popup_be9f53b367b759def8b8d702a0ef3ef4)
+        ;
+
+        
+    
+    
+                marker_d029ed37539b0fade6f81ba42f177ab4.setIcon(icon_b6327c71de18c4617621338618dc8bf7);
+            
+    
+            var marker_28a6cde3915c504a26a60c54233562f1 = L.marker(
+                [50.1847547, 10.2758153],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_71dd2391937cbd99c4194b39a993d9cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0007d553ff774bda8e41ca2cfbf17ee1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0af7e1bafbf1193a53beb60fc0a7e98c = $(`<div id="html_0af7e1bafbf1193a53beb60fc0a7e98c" style="width: 100.0%; height: 100.0%;"><b>Maßbach</b><br>Leistung: 28.0 MW</div>`)[0];
+                popup_0007d553ff774bda8e41ca2cfbf17ee1.setContent(html_0af7e1bafbf1193a53beb60fc0a7e98c);
+            
+        
+
+        marker_28a6cde3915c504a26a60c54233562f1.bindPopup(popup_0007d553ff774bda8e41ca2cfbf17ee1)
+        ;
+
+        
+    
+    
+                marker_28a6cde3915c504a26a60c54233562f1.setIcon(icon_71dd2391937cbd99c4194b39a993d9cc);
+            
+    
+            var marker_eee51475309eaa9aafe80e67b0ae0c8c = L.marker(
+                [50.305569, 8.280525],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_f462fbe3a0e4a62ffdbf1f5d1438afcd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4d0d821437e057f0c0c21a4c52e8e29c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5c66f185698cd0dd41093e39367c833a = $(`<div id="html_5c66f185698cd0dd41093e39367c833a" style="width: 100.0%; height: 100.0%;"><b>Bad Camberg</b><br>Leistung: 4.0 MW</div>`)[0];
+                popup_4d0d821437e057f0c0c21a4c52e8e29c.setContent(html_5c66f185698cd0dd41093e39367c833a);
+            
+        
+
+        marker_eee51475309eaa9aafe80e67b0ae0c8c.bindPopup(popup_4d0d821437e057f0c0c21a4c52e8e29c)
+        ;
+
+        
+    
+    
+                marker_eee51475309eaa9aafe80e67b0ae0c8c.setIcon(icon_f462fbe3a0e4a62ffdbf1f5d1438afcd);
+            
+    
+            var marker_7d96b046a14a2243af44ea7d97b4b277 = L.marker(
+                [49.8814974, 7.9623376],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_50daa6f7d2d7f107a0bc888c12277610 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec95a0f8f09544403d63bbff83313114 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9af86367ef0db2d11b778e68d48eebea = $(`<div id="html_9af86367ef0db2d11b778e68d48eebea" style="width: 100.0%; height: 100.0%;"><b>Welgesheim</b><br>Leistung: 3.1 MW</div>`)[0];
+                popup_ec95a0f8f09544403d63bbff83313114.setContent(html_9af86367ef0db2d11b778e68d48eebea);
+            
+        
+
+        marker_7d96b046a14a2243af44ea7d97b4b277.bindPopup(popup_ec95a0f8f09544403d63bbff83313114)
+        ;
+
+        
+    
+    
+                marker_7d96b046a14a2243af44ea7d97b4b277.setIcon(icon_50daa6f7d2d7f107a0bc888c12277610);
+            
+    
+            var marker_a3ea2b2a0759b3d62d9fbd5a5a59889d = L.marker(
+                [49.67, 8.0325],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_81d34c73ef239e60f82b0315c5676b6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_556e9f87895f38053f9891225e3a3a2c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e085be7464e2e631e0da943b25e21fb8 = $(`<div id="html_e085be7464e2e631e0da943b25e21fb8" style="width: 100.0%; height: 100.0%;"><b>Bischheim</b></div>`)[0];
+                popup_556e9f87895f38053f9891225e3a3a2c.setContent(html_e085be7464e2e631e0da943b25e21fb8);
+            
+        
+
+        marker_a3ea2b2a0759b3d62d9fbd5a5a59889d.bindPopup(popup_556e9f87895f38053f9891225e3a3a2c)
+        ;
+
+        
+    
+    
+                marker_a3ea2b2a0759b3d62d9fbd5a5a59889d.setIcon(icon_81d34c73ef239e60f82b0315c5676b6f);
+            
+    
+            var marker_bbbd4379ed15da94aeec2b8b234e66a6 = L.marker(
+                [49.56916, 7.85388],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_eb8b34224dc3649a0a8cc3dc58f2ed70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6c824a8ad21b1649289420a5fbf69a2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_59a91937a36bdbcf77d3c08e6aad3818 = $(`<div id="html_59a91937a36bdbcf77d3c08e6aad3818" style="width: 100.0%; height: 100.0%;"><b>Winnweiler-Imsbach</b></div>`)[0];
+                popup_b6c824a8ad21b1649289420a5fbf69a2.setContent(html_59a91937a36bdbcf77d3c08e6aad3818);
+            
+        
+
+        marker_bbbd4379ed15da94aeec2b8b234e66a6.bindPopup(popup_b6c824a8ad21b1649289420a5fbf69a2)
+        ;
+
+        
+    
+    
+                marker_bbbd4379ed15da94aeec2b8b234e66a6.setIcon(icon_eb8b34224dc3649a0a8cc3dc58f2ed70);
+            
+    
+            var marker_ab74a85bd9c06955f2e5de01260eecaf = L.marker(
+                [49.669, 9.520555],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2a8017e4322e245fddd1987eb70e2af1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc7cc596cfb236ccae890a755dd97688 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8438b59d4bb8137fb6ec8963d4c9ad3b = $(`<div id="html_8438b59d4bb8137fb6ec8963d4c9ad3b" style="width: 100.0%; height: 100.0%;"><b>Külsheim Gickelfeld</b><br>Leistung: 29.0 MW</div>`)[0];
+                popup_cc7cc596cfb236ccae890a755dd97688.setContent(html_8438b59d4bb8137fb6ec8963d4c9ad3b);
+            
+        
+
+        marker_ab74a85bd9c06955f2e5de01260eecaf.bindPopup(popup_cc7cc596cfb236ccae890a755dd97688)
+        ;
+
+        
+    
+    
+                marker_ab74a85bd9c06955f2e5de01260eecaf.setIcon(icon_2a8017e4322e245fddd1987eb70e2af1);
+            
+    
+            var marker_d88a015dbd7df0e0e3d09d8a8080328a = L.marker(
+                [49.087535, 8.5471096],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2252ea1c007c2fea36c39c2df77c5891 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d850d970ccd9aa3e47e95dd094da3e6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ad24e70829edcb9623e222e426296998 = $(`<div id="html_ad24e70829edcb9623e222e426296998" style="width: 100.0%; height: 100.0%;"><b>Bruchsal-Untergrombach</b><br>Leistung: 3.9 MW</div>`)[0];
+                popup_3d850d970ccd9aa3e47e95dd094da3e6.setContent(html_ad24e70829edcb9623e222e426296998);
+            
+        
+
+        marker_d88a015dbd7df0e0e3d09d8a8080328a.bindPopup(popup_3d850d970ccd9aa3e47e95dd094da3e6)
+        ;
+
+        
+    
+    
+                marker_d88a015dbd7df0e0e3d09d8a8080328a.setIcon(icon_2252ea1c007c2fea36c39c2df77c5891);
+            
+    
+            var marker_aaec341e9472c913acc4595ccf5c76e9 = L.marker(
+                [49.5577854, 9.7190669],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_7a7813f28a7731e18019ae1df2c4e498 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ff1772cf93657eaf9dc51fba35a1095 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6d9f3330f888b9a415dbf11fe7712c80 = $(`<div id="html_6d9f3330f888b9a415dbf11fe7712c80" style="width: 100.0%; height: 100.0%;"><b>Lauda-Königshofen</b></div>`)[0];
+                popup_8ff1772cf93657eaf9dc51fba35a1095.setContent(html_6d9f3330f888b9a415dbf11fe7712c80);
+            
+        
+
+        marker_aaec341e9472c913acc4595ccf5c76e9.bindPopup(popup_8ff1772cf93657eaf9dc51fba35a1095)
+        ;
+
+        
+    
+    
+                marker_aaec341e9472c913acc4595ccf5c76e9.setIcon(icon_7a7813f28a7731e18019ae1df2c4e498);
+            
+    
+            var marker_5988c8961f54f69c92278dad4e229f9a = L.marker(
+                [49.5811, 9.3622],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_e7ec0e6e93b523e455d884e6c754e87b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8dfa643b52222d05e47334e93112b60d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0d17ec00612433ff49b20eae445958ce = $(`<div id="html_0d17ec00612433ff49b20eae445958ce" style="width: 100.0%; height: 100.0%;"><b>Walldürn </b></div>`)[0];
+                popup_8dfa643b52222d05e47334e93112b60d.setContent(html_0d17ec00612433ff49b20eae445958ce);
+            
+        
+
+        marker_5988c8961f54f69c92278dad4e229f9a.bindPopup(popup_8dfa643b52222d05e47334e93112b60d)
+        ;
+
+        
+    
+    
+                marker_5988c8961f54f69c92278dad4e229f9a.setIcon(icon_e7ec0e6e93b523e455d884e6c754e87b);
+            
+    
+            var marker_0333fce4a6a19a824bf617d9daf8ce0d = L.marker(
+                [49.6101843, 9.4732442],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_9f7575360087ecba7e42c9ca161058aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de965be6cd63ae42d7bb8e9709c9955d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_01fef85df9ebe31c0a2981a461f3da3e = $(`<div id="html_01fef85df9ebe31c0a2981a461f3da3e" style="width: 100.0%; height: 100.0%;"><b>Hardheim</b></div>`)[0];
+                popup_de965be6cd63ae42d7bb8e9709c9955d.setContent(html_01fef85df9ebe31c0a2981a461f3da3e);
+            
+        
+
+        marker_0333fce4a6a19a824bf617d9daf8ce0d.bindPopup(popup_de965be6cd63ae42d7bb8e9709c9955d)
+        ;
+
+        
+    
+    
+                marker_0333fce4a6a19a824bf617d9daf8ce0d.setIcon(icon_9f7575360087ecba7e42c9ca161058aa);
+            
+    
+            var marker_9d17ee36671dec965f15f4a38d59ce4c = L.marker(
+                [49.48722, 9.45388],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_4b7a24513b0dacff182ba73d8ba896e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1992ac5b502fd1a0fa8013459f716cff = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a323f326f21adc77f1ddf37de41559c2 = $(`<div id="html_a323f326f21adc77f1ddf37de41559c2" style="width: 100.0%; height: 100.0%;"><b>Rosenberg Sindolsheim Kuhdacher Weg</b></div>`)[0];
+                popup_1992ac5b502fd1a0fa8013459f716cff.setContent(html_a323f326f21adc77f1ddf37de41559c2);
+            
+        
+
+        marker_9d17ee36671dec965f15f4a38d59ce4c.bindPopup(popup_1992ac5b502fd1a0fa8013459f716cff)
+        ;
+
+        
+    
+    
+                marker_9d17ee36671dec965f15f4a38d59ce4c.setIcon(icon_4b7a24513b0dacff182ba73d8ba896e5);
+            
+    
+            var marker_f57a863225f89662c3c3e5228b9e7843 = L.marker(
+                [49.5049566, 9.1587461],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_3fcec8c055dc76e2da86d5f06670e4fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4bd01b17095f4126da8232ff7312406 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_51df3b2c0eb305295eeaae142483f0a4 = $(`<div id="html_51df3b2c0eb305295eeaae142483f0a4" style="width: 100.0%; height: 100.0%;"><b>Scheidental </b></div>`)[0];
+                popup_a4bd01b17095f4126da8232ff7312406.setContent(html_51df3b2c0eb305295eeaae142483f0a4);
+            
+        
+
+        marker_f57a863225f89662c3c3e5228b9e7843.bindPopup(popup_a4bd01b17095f4126da8232ff7312406)
+        ;
+
+        
+    
+    
+                marker_f57a863225f89662c3c3e5228b9e7843.setIcon(icon_3fcec8c055dc76e2da86d5f06670e4fe);
+            
+    
+            var marker_d2594b5dfd0acf7b2bc318797dbd6ba4 = L.marker(
+                [49.4619356, 9.2112167],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_5b487a963dcf64d68169147b8079edd2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_13a935057203085dd96b21cb3c880acb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_64cef2117cdcdf5229e44791e61db88c = $(`<div id="html_64cef2117cdcdf5229e44791e61db88c" style="width: 100.0%; height: 100.0%;"><b>Limbach </b></div>`)[0];
+                popup_13a935057203085dd96b21cb3c880acb.setContent(html_64cef2117cdcdf5229e44791e61db88c);
+            
+        
+
+        marker_d2594b5dfd0acf7b2bc318797dbd6ba4.bindPopup(popup_13a935057203085dd96b21cb3c880acb)
+        ;
+
+        
+    
+    
+                marker_d2594b5dfd0acf7b2bc318797dbd6ba4.setIcon(icon_5b487a963dcf64d68169147b8079edd2);
+            
+    
+            var marker_af86fe0e6995cee35e138d6c4c91d628 = L.marker(
+                [49.4343, 10.0944],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_0e2ed53f3ddcdefd272918b9ed22caf8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3eb33ba88a1a96601a81a8f46c3580d6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4323a6222e18e2319c5d55ef9f32bd01 = $(`<div id="html_4323a6222e18e2319c5d55ef9f32bd01" style="width: 100.0%; height: 100.0%;"><b>Creglingen-Finsterlohr</b></div>`)[0];
+                popup_3eb33ba88a1a96601a81a8f46c3580d6.setContent(html_4323a6222e18e2319c5d55ef9f32bd01);
+            
+        
+
+        marker_af86fe0e6995cee35e138d6c4c91d628.bindPopup(popup_3eb33ba88a1a96601a81a8f46c3580d6)
+        ;
+
+        
+    
+    
+                marker_af86fe0e6995cee35e138d6c4c91d628.setIcon(icon_0e2ed53f3ddcdefd272918b9ed22caf8);
+            
+    
+            var marker_effb98f2c8910b1ab12153644f7b5b86 = L.marker(
+                [49.403345, 10.123593],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_39863371449cab9a95fe0610b988cc39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7337fa0a24cecf1a34c23c85623f161 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1818f3fe6603127e9d3bb15ddded55d5 = $(`<div id="html_1818f3fe6603127e9d3bb15ddded55d5" style="width: 100.0%; height: 100.0%;"><b>Creglinen-Blumenweiler</b></div>`)[0];
+                popup_f7337fa0a24cecf1a34c23c85623f161.setContent(html_1818f3fe6603127e9d3bb15ddded55d5);
+            
+        
+
+        marker_effb98f2c8910b1ab12153644f7b5b86.bindPopup(popup_f7337fa0a24cecf1a34c23c85623f161)
+        ;
+
+        
+    
+    
+                marker_effb98f2c8910b1ab12153644f7b5b86.setIcon(icon_39863371449cab9a95fe0610b988cc39);
+            
+    
+            var marker_d235680f6c9679e3dd1275c2df84bb8e = L.marker(
+                [49.407888, 10.057651],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b164dbd6d22f1d5acbe68fd17b596f3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fe2f69c83f26334a774f4c08b04dcf5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_92c9bc2aaae401e8674d61e1e41d4d93 = $(`<div id="html_92c9bc2aaae401e8674d61e1e41d4d93" style="width: 100.0%; height: 100.0%;"><b>Creglinen-Oberrimbach</b></div>`)[0];
+                popup_2fe2f69c83f26334a774f4c08b04dcf5.setContent(html_92c9bc2aaae401e8674d61e1e41d4d93);
+            
+        
+
+        marker_d235680f6c9679e3dd1275c2df84bb8e.bindPopup(popup_2fe2f69c83f26334a774f4c08b04dcf5)
+        ;
+
+        
+    
+    
+                marker_d235680f6c9679e3dd1275c2df84bb8e.setIcon(icon_b164dbd6d22f1d5acbe68fd17b596f3d);
+            
+    
+            var marker_3a75ee7cef314c410f0c73da99da845d = L.marker(
+                [49.3861751, 9.6346258],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_60750ba67aeee353db10870a66a35067 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc429ba44cec5075bef99989995052bd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_43cae352d8253868aa80edb0c4b125b6 = $(`<div id="html_43cae352d8253868aa80edb0c4b125b6" style="width: 100.0%; height: 100.0%;"><b>Krautheim</b><br>Leistung: 0.5 MW</div>`)[0];
+                popup_fc429ba44cec5075bef99989995052bd.setContent(html_43cae352d8253868aa80edb0c4b125b6);
+            
+        
+
+        marker_3a75ee7cef314c410f0c73da99da845d.bindPopup(popup_fc429ba44cec5075bef99989995052bd)
+        ;
+
+        
+    
+    
+                marker_3a75ee7cef314c410f0c73da99da845d.setIcon(icon_60750ba67aeee353db10870a66a35067);
+            
+    
+            var marker_e3e800a829eebc3fd21c8d49c6fd8943 = L.marker(
+                [49.3708646, 9.5425561],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ff703463b05dc1ac2fd5c8f7698fc276 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96f4d5d97bd21b486666c36c68aa562a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cc008e49b7fa7ba1c76af0a147b11f9f = $(`<div id="html_cc008e49b7fa7ba1c76af0a147b11f9f" style="width: 100.0%; height: 100.0%;"><b>Aschhausen </b></div>`)[0];
+                popup_96f4d5d97bd21b486666c36c68aa562a.setContent(html_cc008e49b7fa7ba1c76af0a147b11f9f);
+            
+        
+
+        marker_e3e800a829eebc3fd21c8d49c6fd8943.bindPopup(popup_96f4d5d97bd21b486666c36c68aa562a)
+        ;
+
+        
+    
+    
+                marker_e3e800a829eebc3fd21c8d49c6fd8943.setIcon(icon_ff703463b05dc1ac2fd5c8f7698fc276);
+            
+    
+            var marker_15d016bc64e5a4c96fd2f1f362442699 = L.marker(
+                [49.3515426, 9.4840266],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_63f813adeb052001cd1826aa97e48f0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0eb2f7bd5e1ba3ab82a85edb2e80a2b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8b9f6f416e4585881509b10e0ed8ae90 = $(`<div id="html_8b9f6f416e4585881509b10e0ed8ae90" style="width: 100.0%; height: 100.0%;"><b>Rossach </b></div>`)[0];
+                popup_b0eb2f7bd5e1ba3ab82a85edb2e80a2b.setContent(html_8b9f6f416e4585881509b10e0ed8ae90);
+            
+        
+
+        marker_15d016bc64e5a4c96fd2f1f362442699.bindPopup(popup_b0eb2f7bd5e1ba3ab82a85edb2e80a2b)
+        ;
+
+        
+    
+    
+                marker_15d016bc64e5a4c96fd2f1f362442699.setIcon(icon_63f813adeb052001cd1826aa97e48f0b);
+            
+    
+            var marker_53f2e691d87f6856fe86b87bd6d9dcee = L.marker(
+                [49.4053706, 9.3903482],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c009304e49d1eece13888f99b9499cc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d67f99692faddd1e6a678762bc2d9087 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a41c50a18c437b311d0f5c6886c2e707 = $(`<div id="html_a41c50a18c437b311d0f5c6886c2e707" style="width: 100.0%; height: 100.0%;"><b>Adelsheim</b></div>`)[0];
+                popup_d67f99692faddd1e6a678762bc2d9087.setContent(html_a41c50a18c437b311d0f5c6886c2e707);
+            
+        
+
+        marker_53f2e691d87f6856fe86b87bd6d9dcee.bindPopup(popup_d67f99692faddd1e6a678762bc2d9087)
+        ;
+
+        
+    
+    
+                marker_53f2e691d87f6856fe86b87bd6d9dcee.setIcon(icon_c009304e49d1eece13888f99b9499cc4);
+            
+    
+            var marker_d7a9281bd8f5943adaf20dfaca625d4e = L.marker(
+                [49.309722, 9.46972],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2fc6bc6f0c63f6c040fa16710e82b899 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4536d60bc7da8ec977120419a76aaedd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2a4e493a5a8a65cba6d6bc54180e3398 = $(`<div id="html_2a4e493a5a8a65cba6d6bc54180e3398" style="width: 100.0%; height: 100.0%;"><b>Jagsthausen-Stolzenhofen</b></div>`)[0];
+                popup_4536d60bc7da8ec977120419a76aaedd.setContent(html_2a4e493a5a8a65cba6d6bc54180e3398);
+            
+        
+
+        marker_d7a9281bd8f5943adaf20dfaca625d4e.bindPopup(popup_4536d60bc7da8ec977120419a76aaedd)
+        ;
+
+        
+    
+    
+                marker_d7a9281bd8f5943adaf20dfaca625d4e.setIcon(icon_2fc6bc6f0c63f6c040fa16710e82b899);
+            
+    
+            var marker_e588b1cb0137079d783df3df54cc1fd5 = L.marker(
+                [49.34065, 9.80014],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_f49e123fcc56c57410a74f753c76dd26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d54462924641e49b0a5163e444854cf3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e25b181f367701d629ce3acd73422fb1 = $(`<div id="html_e25b181f367701d629ce3acd73422fb1" style="width: 100.0%; height: 100.0%;"><b>Mulfingen </b></div>`)[0];
+                popup_d54462924641e49b0a5163e444854cf3.setContent(html_e25b181f367701d629ce3acd73422fb1);
+            
+        
+
+        marker_e588b1cb0137079d783df3df54cc1fd5.bindPopup(popup_d54462924641e49b0a5163e444854cf3)
+        ;
+
+        
+    
+    
+                marker_e588b1cb0137079d783df3df54cc1fd5.setIcon(icon_f49e123fcc56c57410a74f753c76dd26);
+            
+    
+            var marker_48da1480e5dfa22fcf2d71524fdb9a20 = L.marker(
+                [49.2531928, 9.8477788],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_0634fc18ccc4702143a4b120e347f703 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1edfa9cd69bb4f1b949e6d53b4445ea5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_50bba1e8339390e0b3fda1c1d7a88a22 = $(`<div id="html_50bba1e8339390e0b3fda1c1d7a88a22" style="width: 100.0%; height: 100.0%;"><b>Langenburg</b></div>`)[0];
+                popup_1edfa9cd69bb4f1b949e6d53b4445ea5.setContent(html_50bba1e8339390e0b3fda1c1d7a88a22);
+            
+        
+
+        marker_48da1480e5dfa22fcf2d71524fdb9a20.bindPopup(popup_1edfa9cd69bb4f1b949e6d53b4445ea5)
+        ;
+
+        
+    
+    
+                marker_48da1480e5dfa22fcf2d71524fdb9a20.setIcon(icon_0634fc18ccc4702143a4b120e347f703);
+            
+    
+            var marker_1255b538e88938ce7cdc4bd2ea9d52e3 = L.marker(
+                [49.2005034, 9.5024397],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_4f134e21767cf2ad557511f917eb4c7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_88de303e22696439abe83a61d6ecdf89 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d9ad52e16ac1d0bf87d99482afae79c2 = $(`<div id="html_d9ad52e16ac1d0bf87d99482afae79c2" style="width: 100.0%; height: 100.0%;"><b>Öhringen</b></div>`)[0];
+                popup_88de303e22696439abe83a61d6ecdf89.setContent(html_d9ad52e16ac1d0bf87d99482afae79c2);
+            
+        
+
+        marker_1255b538e88938ce7cdc4bd2ea9d52e3.bindPopup(popup_88de303e22696439abe83a61d6ecdf89)
+        ;
+
+        
+    
+    
+                marker_1255b538e88938ce7cdc4bd2ea9d52e3.setIcon(icon_4f134e21767cf2ad557511f917eb4c7d);
+            
+    
+            var marker_098d45cd13f16d15d1691503aaa180cf = L.marker(
+                [49.1994022, 9.7920239],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_f214c0ded09a82c3f8962672fe39c76a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c6482567e31244217eb601a9bda45b6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cd63d501e7ababa1978e711c865cfc35 = $(`<div id="html_cd63d501e7ababa1978e711c865cfc35" style="width: 100.0%; height: 100.0%;"><b>Braunsbach</b></div>`)[0];
+                popup_3c6482567e31244217eb601a9bda45b6.setContent(html_cd63d501e7ababa1978e711c865cfc35);
+            
+        
+
+        marker_098d45cd13f16d15d1691503aaa180cf.bindPopup(popup_3c6482567e31244217eb601a9bda45b6)
+        ;
+
+        
+    
+    
+                marker_098d45cd13f16d15d1691503aaa180cf.setIcon(icon_f214c0ded09a82c3f8962672fe39c76a);
+            
+    
+            var marker_d37d7ef282f2ad1d8d9f26f9195341b4 = L.marker(
+                [49.1414205, 9.0571085],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_bace467aca22cc6063ddca9b3f7b0402 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_312dd90104affae430ce27d6d1e23d83 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b04ecb143d28c82813228cb6d5841d70 = $(`<div id="html_b04ecb143d28c82813228cb6d5841d70" style="width: 100.0%; height: 100.0%;"><b>Schwaigern</b><br>Leistung: 5.8 MW</div>`)[0];
+                popup_312dd90104affae430ce27d6d1e23d83.setContent(html_b04ecb143d28c82813228cb6d5841d70);
+            
+        
+
+        marker_d37d7ef282f2ad1d8d9f26f9195341b4.bindPopup(popup_312dd90104affae430ce27d6d1e23d83)
+        ;
+
+        
+    
+    
+                marker_d37d7ef282f2ad1d8d9f26f9195341b4.setIcon(icon_bace467aca22cc6063ddca9b3f7b0402);
+            
+    
+            var marker_bb444ce001087864e937c3b5b89a7a86 = L.marker(
+                [49.0446069, 9.0381355],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_5f28670ca34515e32b402cf29919df2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9827a0afe5b42816e5a23119c7fad3b9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f1f0594a7036cf7fdd6661041b757dce = $(`<div id="html_f1f0594a7036cf7fdd6661041b757dce" style="width: 100.0%; height: 100.0%;"><b>Cleebronn</b><br>Leistung: 0.9 MW</div>`)[0];
+                popup_9827a0afe5b42816e5a23119c7fad3b9.setContent(html_f1f0594a7036cf7fdd6661041b757dce);
+            
+        
+
+        marker_bb444ce001087864e937c3b5b89a7a86.bindPopup(popup_9827a0afe5b42816e5a23119c7fad3b9)
+        ;
+
+        
+    
+    
+                marker_bb444ce001087864e937c3b5b89a7a86.setIcon(icon_5f28670ca34515e32b402cf29919df2f);
+            
+    
+            var marker_97d36c9fea20b78123bc527a8d68211a = L.marker(
+                [48.8516578, 10.4885873],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_1584fc05e3025aa9881a406c7be4c023 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76a369453f8e0c1db2b5fe68bbf6f909 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_85dac741d2be7fe4b1ce5cbb733b15ee = $(`<div id="html_85dac741d2be7fe4b1ce5cbb733b15ee" style="width: 100.0%; height: 100.0%;"><b>Nördlingen</b></div>`)[0];
+                popup_76a369453f8e0c1db2b5fe68bbf6f909.setContent(html_85dac741d2be7fe4b1ce5cbb733b15ee);
+            
+        
+
+        marker_97d36c9fea20b78123bc527a8d68211a.bindPopup(popup_76a369453f8e0c1db2b5fe68bbf6f909)
+        ;
+
+        
+    
+    
+                marker_97d36c9fea20b78123bc527a8d68211a.setIcon(icon_1584fc05e3025aa9881a406c7be4c023);
+            
+    
+            var marker_fa1ffd800cc65b9dda3a0bea0faf4909 = L.marker(
+                [48.8854377, 8.898631],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_46395ae522b1e998f13884b3d7b49d29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5e8e5018eb1e257607fb8732bf9d236 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_646f3027a481dc761c67a1cd0f8eae8c = $(`<div id="html_646f3027a481dc761c67a1cd0f8eae8c" style="width: 100.0%; height: 100.0%;"><b>Wiernsheim</b><br>Leistung: 5.4 MW</div>`)[0];
+                popup_d5e8e5018eb1e257607fb8732bf9d236.setContent(html_646f3027a481dc761c67a1cd0f8eae8c);
+            
+        
+
+        marker_fa1ffd800cc65b9dda3a0bea0faf4909.bindPopup(popup_d5e8e5018eb1e257607fb8732bf9d236)
+        ;
+
+        
+    
+    
+                marker_fa1ffd800cc65b9dda3a0bea0faf4909.setIcon(icon_46395ae522b1e998f13884b3d7b49d29);
+            
+    
+            var marker_f187ba69932c22aa52a3309ddccc36c1 = L.marker(
+                [48.8212962, 9.2200016],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_6bf4dddf3090a7345fffc10eb50eaf0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdab2e3b60548f6e33b4af00eabf7688 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dbbc2dc8fd7a92fee3e36d9e0d39ddcb = $(`<div id="html_dbbc2dc8fd7a92fee3e36d9e0d39ddcb" style="width: 100.0%; height: 100.0%;"><b>Münster </b><br>Leistung: 0.2 MW</div>`)[0];
+                popup_fdab2e3b60548f6e33b4af00eabf7688.setContent(html_dbbc2dc8fd7a92fee3e36d9e0d39ddcb);
+            
+        
+
+        marker_f187ba69932c22aa52a3309ddccc36c1.bindPopup(popup_fdab2e3b60548f6e33b4af00eabf7688)
+        ;
+
+        
+    
+    
+                marker_f187ba69932c22aa52a3309ddccc36c1.setIcon(icon_6bf4dddf3090a7345fffc10eb50eaf0e);
+            
+    
+            var marker_5b2238b8aa5f7ede95fcd00d78412243 = L.marker(
+                [48.7784485, 9.1800132],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_8fed7f982c9dfe6d140b61cde26b7a56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e08660ec0c86b2ff246327ab4007aa0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a4b4484f36ad58cbaadc2fa90d1a355b = $(`<div id="html_a4b4484f36ad58cbaadc2fa90d1a355b" style="width: 100.0%; height: 100.0%;"><b>Stuttgart </b><br>Leistung: 0.05 MW</div>`)[0];
+                popup_9e08660ec0c86b2ff246327ab4007aa0.setContent(html_a4b4484f36ad58cbaadc2fa90d1a355b);
+            
+        
+
+        marker_5b2238b8aa5f7ede95fcd00d78412243.bindPopup(popup_9e08660ec0c86b2ff246327ab4007aa0)
+        ;
+
+        
+    
+    
+                marker_5b2238b8aa5f7ede95fcd00d78412243.setIcon(icon_8fed7f982c9dfe6d140b61cde26b7a56);
+            
+    
+            var marker_07a970a3a5cd71d3397a64a2d12b2fe7 = L.marker(
+                [48.7784485, 9.1800132],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_0e95faab639c5c5742f7837f0a17b3b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05514eeb8ee778de614014845443a42e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6705aae20c062bddafc325bd832321ac = $(`<div id="html_6705aae20c062bddafc325bd832321ac" style="width: 100.0%; height: 100.0%;"><b>Stuttgart </b><br>Leistung: 0.028 MW</div>`)[0];
+                popup_05514eeb8ee778de614014845443a42e.setContent(html_6705aae20c062bddafc325bd832321ac);
+            
+        
+
+        marker_07a970a3a5cd71d3397a64a2d12b2fe7.bindPopup(popup_05514eeb8ee778de614014845443a42e)
+        ;
+
+        
+    
+    
+                marker_07a970a3a5cd71d3397a64a2d12b2fe7.setIcon(icon_0e95faab639c5c5742f7837f0a17b3b6);
+            
+    
+            var marker_687f5607f309826c78c407f087e90af8 = L.marker(
+                [48.7389826, 10.112308],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2818914b765dce082a2202e8a3853c46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_125be23b7b2ce619d53b6aa9140ac197 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a8d800bc3c30d9918821851bef701e5c = $(`<div id="html_a8d800bc3c30d9918821851bef701e5c" style="width: 100.0%; height: 100.0%;"><b>Königsbronn</b><br>Leistung: 9.9 MW</div>`)[0];
+                popup_125be23b7b2ce619d53b6aa9140ac197.setContent(html_a8d800bc3c30d9918821851bef701e5c);
+            
+        
+
+        marker_687f5607f309826c78c407f087e90af8.bindPopup(popup_125be23b7b2ce619d53b6aa9140ac197)
+        ;
+
+        
+    
+    
+                marker_687f5607f309826c78c407f087e90af8.setIcon(icon_2818914b765dce082a2202e8a3853c46);
+            
+    
+            var marker_10b9b54ba6742a9e2cc68148708be618 = L.marker(
+                [48.6727602, 9.3838404],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_75c145a39c33d2ce1e690d9e549085ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_234e38b0eb045326029dfb0f4e2af4b6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cfe2a8720da502764455e48a28c8a87f = $(`<div id="html_cfe2a8720da502764455e48a28c8a87f" style="width: 100.0%; height: 100.0%;"><b>Wendlingen</b><br>Leistung: 0.8 MW</div>`)[0];
+                popup_234e38b0eb045326029dfb0f4e2af4b6.setContent(html_cfe2a8720da502764455e48a28c8a87f);
+            
+        
+
+        marker_10b9b54ba6742a9e2cc68148708be618.bindPopup(popup_234e38b0eb045326029dfb0f4e2af4b6)
+        ;
+
+        
+    
+    
+                marker_10b9b54ba6742a9e2cc68148708be618.setIcon(icon_75c145a39c33d2ce1e690d9e549085ca);
+            
+    
+            var marker_c997d0c3a37841bcfeb0c54b5034a7eb = L.marker(
+                [48.524, 8.65027],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_257a759bf1fcb6c1cdf67fd4c3360f73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d2dc0a7df7da1e5a2d978d809a03461 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b5f867e7ddc796c35eb1e4ca4799a76f = $(`<div id="html_b5f867e7ddc796c35eb1e4ca4799a76f" style="width: 100.0%; height: 100.0%;"><b>Haiterbah Unterschwandorf</b><br>Leistung: 10.7 MW</div>`)[0];
+                popup_1d2dc0a7df7da1e5a2d978d809a03461.setContent(html_b5f867e7ddc796c35eb1e4ca4799a76f);
+            
+        
+
+        marker_c997d0c3a37841bcfeb0c54b5034a7eb.bindPopup(popup_1d2dc0a7df7da1e5a2d978d809a03461)
+        ;
+
+        
+    
+    
+                marker_c997d0c3a37841bcfeb0c54b5034a7eb.setIcon(icon_257a759bf1fcb6c1cdf67fd4c3360f73);
+            
+    
+            var marker_69266b804cc08823ccbdce3f694bf1d7 = L.marker(
+                [48.5137766, 8.658458],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_254155cb5c4e7e3c80536dd8adf6c1de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9fd7cbb5a43b3dd472b5e842c530d13 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c84ee20f2fd93155f2de2f13f530a158 = $(`<div id="html_c84ee20f2fd93155f2de2f13f530a158" style="width: 100.0%; height: 100.0%;"><b>Haiterbach Blätschenschneider</b><br>Leistung: 8.7 MW</div>`)[0];
+                popup_e9fd7cbb5a43b3dd472b5e842c530d13.setContent(html_c84ee20f2fd93155f2de2f13f530a158);
+            
+        
+
+        marker_69266b804cc08823ccbdce3f694bf1d7.bindPopup(popup_e9fd7cbb5a43b3dd472b5e842c530d13)
+        ;
+
+        
+    
+    
+                marker_69266b804cc08823ccbdce3f694bf1d7.setIcon(icon_254155cb5c4e7e3c80536dd8adf6c1de);
+            
+    
+            var marker_addbe55a5900008122882d6f7041b0d4 = L.marker(
+                [48.51833, 9.40555],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_a2294eecfd2bf244dc0e87242efebc0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1219af0619b5d08948a9cb6a0ae7fcb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_822439e931eb9611495adf75bf2bd0bc = $(`<div id="html_822439e931eb9611495adf75bf2bd0bc" style="width: 100.0%; height: 100.0%;"><b>Hülben </b></div>`)[0];
+                popup_e1219af0619b5d08948a9cb6a0ae7fcb.setContent(html_822439e931eb9611495adf75bf2bd0bc);
+            
+        
+
+        marker_addbe55a5900008122882d6f7041b0d4.bindPopup(popup_e1219af0619b5d08948a9cb6a0ae7fcb)
+        ;
+
+        
+    
+    
+                marker_addbe55a5900008122882d6f7041b0d4.setIcon(icon_a2294eecfd2bf244dc0e87242efebc0f);
+            
+    
+            var marker_8974062ffec0a27e2153a5ca234a181d = L.marker(
+                [48.46388, 9.76138],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_0fdce518d15f0cdffd539afd13538682 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a462e2db1f74dae75fa04d92f52491d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9aec0f5d1724e9a8bc0d4d11232fa084 = $(`<div id="html_9aec0f5d1724e9a8bc0d4d11232fa084" style="width: 100.0%; height: 100.0%;"><b>Berghülen-Bühlhausen</b><br>Leistung: 2.7 MW</div>`)[0];
+                popup_5a462e2db1f74dae75fa04d92f52491d.setContent(html_9aec0f5d1724e9a8bc0d4d11232fa084);
+            
+        
+
+        marker_8974062ffec0a27e2153a5ca234a181d.bindPopup(popup_5a462e2db1f74dae75fa04d92f52491d)
+        ;
+
+        
+    
+    
+                marker_8974062ffec0a27e2153a5ca234a181d.setIcon(icon_0fdce518d15f0cdffd539afd13538682);
+            
+    
+            var marker_512c750241872feb4b420cbc0d7d8976 = L.marker(
+                [48.4062181, 9.6431044],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_09396fa5cd9fb2d2ba1166c7653382ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b46d58205b3e76d9c61e0dc107a012ef = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d3c21d43e3a0b0edc38234cd237b9be1 = $(`<div id="html_d3c21d43e3a0b0edc38234cd237b9be1" style="width: 100.0%; height: 100.0%;"><b>Schelklingen-Ingstetten</b></div>`)[0];
+                popup_b46d58205b3e76d9c61e0dc107a012ef.setContent(html_d3c21d43e3a0b0edc38234cd237b9be1);
+            
+        
+
+        marker_512c750241872feb4b420cbc0d7d8976.bindPopup(popup_b46d58205b3e76d9c61e0dc107a012ef)
+        ;
+
+        
+    
+    
+                marker_512c750241872feb4b420cbc0d7d8976.setIcon(icon_09396fa5cd9fb2d2ba1166c7653382ea);
+            
+    
+            var marker_96f575552cca808dbc5e7ce8c7b2f062 = L.marker(
+                [48.3639252, 9.8785559],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_d4b70e2a07993a5bc50c46f1890ae84b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb637dd3f10a9e251923513f01e4e03f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ac8938cdb28dd7687a8fc97148399011 = $(`<div id="html_ac8938cdb28dd7687a8fc97148399011" style="width: 100.0%; height: 100.0%;"><b>Ulm-Eggingen</b><br>Leistung: 6.5 MW</div>`)[0];
+                popup_cb637dd3f10a9e251923513f01e4e03f.setContent(html_ac8938cdb28dd7687a8fc97148399011);
+            
+        
+
+        marker_96f575552cca808dbc5e7ce8c7b2f062.bindPopup(popup_cb637dd3f10a9e251923513f01e4e03f)
+        ;
+
+        
+    
+    
+                marker_96f575552cca808dbc5e7ce8c7b2f062.setIcon(icon_d4b70e2a07993a5bc50c46f1890ae84b);
+            
+    
+            var marker_ad873e83c8cae685ba3dbdf5d3266374 = L.marker(
+                [48.3282665, 9.7244123],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_83887847b6ec54519e36bf5aa0d76b08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6d30db66caf0e9f2d3a1521a9763b94 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_169b56749efa97d5bbcdf25683771c97 = $(`<div id="html_169b56749efa97d5bbcdf25683771c97" style="width: 100.0%; height: 100.0%;"><b>Allmendingen</b><br>Leistung: 12.9 MW</div>`)[0];
+                popup_c6d30db66caf0e9f2d3a1521a9763b94.setContent(html_169b56749efa97d5bbcdf25683771c97);
+            
+        
+
+        marker_ad873e83c8cae685ba3dbdf5d3266374.bindPopup(popup_c6d30db66caf0e9f2d3a1521a9763b94)
+        ;
+
+        
+    
+    
+                marker_ad873e83c8cae685ba3dbdf5d3266374.setIcon(icon_83887847b6ec54519e36bf5aa0d76b08);
+            
+    
+            var marker_133589149f758fd60ea55c0275a3ba79 = L.marker(
+                [48.2351044, 9.6889429],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c72194564d9b65992d875bb3c265fc7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_852fc176d7a5af096eb604aa28298a83 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_da58ff1d2e0b53150fd6e4c061aa1ee5 = $(`<div id="html_da58ff1d2e0b53150fd6e4c061aa1ee5" style="width: 100.0%; height: 100.0%;"><b>Rottenacker</b></div>`)[0];
+                popup_852fc176d7a5af096eb604aa28298a83.setContent(html_da58ff1d2e0b53150fd6e4c061aa1ee5);
+            
+        
+
+        marker_133589149f758fd60ea55c0275a3ba79.bindPopup(popup_852fc176d7a5af096eb604aa28298a83)
+        ;
+
+        
+    
+    
+                marker_133589149f758fd60ea55c0275a3ba79.setIcon(icon_c72194564d9b65992d875bb3c265fc7a);
+            
+    
+            var marker_fba081339a7a96a4599d4261a965d1a8 = L.marker(
+                [48.2407425, 9.5452107],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b5d169b04cf728d82da7b6e59491970a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f939f9163c8e505907e917653132d5b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a4f96be4b36b5ba7eca445a774306c5a = $(`<div id="html_a4f96be4b36b5ba7eca445a774306c5a" style="width: 100.0%; height: 100.0%;"><b>Rechtenstein</b></div>`)[0];
+                popup_0f939f9163c8e505907e917653132d5b.setContent(html_a4f96be4b36b5ba7eca445a774306c5a);
+            
+        
+
+        marker_fba081339a7a96a4599d4261a965d1a8.bindPopup(popup_0f939f9163c8e505907e917653132d5b)
+        ;
+
+        
+    
+    
+                marker_fba081339a7a96a4599d4261a965d1a8.setIcon(icon_b5d169b04cf728d82da7b6e59491970a);
+            
+    
+            var marker_48b800050905191766f89f237cd1986a = L.marker(
+                [48.2179145, 9.5112687],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b1d5a590391bca4a773fb3d29b78528e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed718f3999fcc7c198da6469f55a3072 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e1a196f1811c2f12ca663f9e4410a2f8 = $(`<div id="html_e1a196f1811c2f12ca663f9e4410a2f8" style="width: 100.0%; height: 100.0%;"><b>Riedlingen-Zwiefaltendorf</b><br>Leistung: 5.2 MW</div>`)[0];
+                popup_ed718f3999fcc7c198da6469f55a3072.setContent(html_e1a196f1811c2f12ca663f9e4410a2f8);
+            
+        
+
+        marker_48b800050905191766f89f237cd1986a.bindPopup(popup_ed718f3999fcc7c198da6469f55a3072)
+        ;
+
+        
+    
+    
+                marker_48b800050905191766f89f237cd1986a.setIcon(icon_b1d5a590391bca4a773fb3d29b78528e);
+            
+    
+            var marker_262458dd6101636c2e5428567a96be8a = L.marker(
+                [48.3840531, 8.8061709],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_3970d6b7b8e1d6b288156a67030af524 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe6aa29b75ee19b56ead5cb26a8e0a24 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3085c6a7db31f3fba5e75896ca637024 = $(`<div id="html_3085c6a7db31f3fba5e75896ca637024" style="width: 100.0%; height: 100.0%;"><b>Haigerloch-Trillfingen</b></div>`)[0];
+                popup_fe6aa29b75ee19b56ead5cb26a8e0a24.setContent(html_3085c6a7db31f3fba5e75896ca637024);
+            
+        
+
+        marker_262458dd6101636c2e5428567a96be8a.bindPopup(popup_fe6aa29b75ee19b56ead5cb26a8e0a24)
+        ;
+
+        
+    
+    
+                marker_262458dd6101636c2e5428567a96be8a.setIcon(icon_3970d6b7b8e1d6b288156a67030af524);
+            
+    
+            var marker_75b3dfa8e013a511c95619a02e508b47 = L.marker(
+                [48.2875, 8.812556],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b7d49ab630ba0003ca7e794dfeedd7e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7104e76c880146b90c20d1e228aaa5ed = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1a885c04d3bd58d1fd749832e4ff23b7 = $(`<div id="html_1a885c04d3bd58d1fd749832e4ff23b7" style="width: 100.0%; height: 100.0%;"><b>Geislingen </b></div>`)[0];
+                popup_7104e76c880146b90c20d1e228aaa5ed.setContent(html_1a885c04d3bd58d1fd749832e4ff23b7);
+            
+        
+
+        marker_75b3dfa8e013a511c95619a02e508b47.bindPopup(popup_7104e76c880146b90c20d1e228aaa5ed)
+        ;
+
+        
+    
+    
+                marker_75b3dfa8e013a511c95619a02e508b47.setIcon(icon_b7d49ab630ba0003ca7e794dfeedd7e6);
+            
+    
+            var marker_3da60f7d8f2696a888580cd97984ca4f = L.marker(
+                [48.2054811, 8.64673],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_38c28d1d431b4794fe4c80089e166c40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9bc1e370205746e12fa1ed5c2300ff4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_379aa6cf067ba0123482c927f3cf817e = $(`<div id="html_379aa6cf067ba0123482c927f3cf817e" style="width: 100.0%; height: 100.0%;"><b>Dietingen</b></div>`)[0];
+                popup_e9bc1e370205746e12fa1ed5c2300ff4.setContent(html_379aa6cf067ba0123482c927f3cf817e);
+            
+        
+
+        marker_3da60f7d8f2696a888580cd97984ca4f.bindPopup(popup_e9bc1e370205746e12fa1ed5c2300ff4)
+        ;
+
+        
+    
+    
+                marker_3da60f7d8f2696a888580cd97984ca4f.setIcon(icon_38c28d1d431b4794fe4c80089e166c40);
+            
+    
+            var marker_319dd421f5e292fa085e146cda94bfcf = L.marker(
+                [48.1678244, 8.626979],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_73a7dadf869594d1b3a6b542b1338906 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90f70c7861847881ca7fb719ac662043 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0a335f532f5ca0749ab4d5dccb93176d = $(`<div id="html_0a335f532f5ca0749ab4d5dccb93176d" style="width: 100.0%; height: 100.0%;"><b>Rottweil</b></div>`)[0];
+                popup_90f70c7861847881ca7fb719ac662043.setContent(html_0a335f532f5ca0749ab4d5dccb93176d);
+            
+        
+
+        marker_319dd421f5e292fa085e146cda94bfcf.bindPopup(popup_90f70c7861847881ca7fb719ac662043)
+        ;
+
+        
+    
+    
+                marker_319dd421f5e292fa085e146cda94bfcf.setIcon(icon_73a7dadf869594d1b3a6b542b1338906);
+            
+    
+            var marker_8bf43d455971767a5021254e4765cb53 = L.marker(
+                [48.1853554, 9.6937945],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_4cb591bf3c6da4504568e7ef2c66030e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76bb9ac87e1f7ce207f7bece74dcaa44 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_02f42e6efc40282cc6157762837d2cb3 = $(`<div id="html_02f42e6efc40282cc6157762837d2cb3" style="width: 100.0%; height: 100.0%;"><b>Oberstadion </b></div>`)[0];
+                popup_76bb9ac87e1f7ce207f7bece74dcaa44.setContent(html_02f42e6efc40282cc6157762837d2cb3);
+            
+        
+
+        marker_8bf43d455971767a5021254e4765cb53.bindPopup(popup_76bb9ac87e1f7ce207f7bece74dcaa44)
+        ;
+
+        
+    
+    
+                marker_8bf43d455971767a5021254e4765cb53.setIcon(icon_4cb591bf3c6da4504568e7ef2c66030e);
+            
+    
+            var marker_db337568f8de78717098b67472c00fa2 = L.marker(
+                [48.123234, 9.6273273],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_35c543f0c2f624cbf78eda29d7356086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d219d49291b48223c12c948354d6f1df = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5abf57b3ae879f72d6d7818880de4739 = $(`<div id="html_5abf57b3ae879f72d6d7818880de4739" style="width: 100.0%; height: 100.0%;"><b>Minderreuti</b></div>`)[0];
+                popup_d219d49291b48223c12c948354d6f1df.setContent(html_5abf57b3ae879f72d6d7818880de4739);
+            
+        
+
+        marker_db337568f8de78717098b67472c00fa2.bindPopup(popup_d219d49291b48223c12c948354d6f1df)
+        ;
+
+        
+    
+    
+                marker_db337568f8de78717098b67472c00fa2.setIcon(icon_35c543f0c2f624cbf78eda29d7356086);
+            
+    
+            var marker_d1c40730aacfdd2d6aa7add7ed092524 = L.marker(
+                [48.0712874, 9.6491112],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c127ab6767aa0c5d7451cc11d1be34ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39052c484f167493c69749d0217f82e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_483f812239226e50fe02c3b27460ab11 = $(`<div id="html_483f812239226e50fe02c3b27460ab11" style="width: 100.0%; height: 100.0%;"><b>Oggelshausen</b></div>`)[0];
+                popup_39052c484f167493c69749d0217f82e5.setContent(html_483f812239226e50fe02c3b27460ab11);
+            
+        
+
+        marker_d1c40730aacfdd2d6aa7add7ed092524.bindPopup(popup_39052c484f167493c69749d0217f82e5)
+        ;
+
+        
+    
+    
+                marker_d1c40730aacfdd2d6aa7add7ed092524.setIcon(icon_c127ab6767aa0c5d7451cc11d1be34ef);
+            
+    
+            var marker_fd4d93d85e16c825e0270644780c91d0 = L.marker(
+                [48.0984413, 9.7899938],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_2d715ab1682ab29fe37e14096d72df37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3073aff2e9b8082217d80e74703f0461 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7dfe67c0b5ee4e50e4a3847a02ae2a5a = $(`<div id="html_7dfe67c0b5ee4e50e4a3847a02ae2a5a" style="width: 100.0%; height: 100.0%;"><b>Biberach</b><br>Leistung: 0.06 MW</div>`)[0];
+                popup_3073aff2e9b8082217d80e74703f0461.setContent(html_7dfe67c0b5ee4e50e4a3847a02ae2a5a);
+            
+        
+
+        marker_fd4d93d85e16c825e0270644780c91d0.bindPopup(popup_3073aff2e9b8082217d80e74703f0461)
+        ;
+
+        
+    
+    
+                marker_fd4d93d85e16c825e0270644780c91d0.setIcon(icon_2d715ab1682ab29fe37e14096d72df37);
+            
+    
+            var marker_532df9b3555284419a6f46c6c3370341 = L.marker(
+                [48.127285, 9.9753419],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_5f93e73cd97fd689868dc2f1b08bbbe4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b8e6f65c998a8bd615cc9f3063d6070 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6a7653a9ed26632ea4fc510eed91e4ff = $(`<div id="html_6a7653a9ed26632ea4fc510eed91e4ff" style="width: 100.0%; height: 100.0%;"><b>Gutenzell-Hürbel</b><br>Leistung: 12.0 MW</div>`)[0];
+                popup_8b8e6f65c998a8bd615cc9f3063d6070.setContent(html_6a7653a9ed26632ea4fc510eed91e4ff);
+            
+        
+
+        marker_532df9b3555284419a6f46c6c3370341.bindPopup(popup_8b8e6f65c998a8bd615cc9f3063d6070)
+        ;
+
+        
+    
+    
+                marker_532df9b3555284419a6f46c6c3370341.setIcon(icon_5f93e73cd97fd689868dc2f1b08bbbe4);
+            
+    
+            var marker_183c1b906fa62c5536cd5903fbbb052d = L.marker(
+                [48.0257978, 9.742062],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_4330ff31662ec3e9ff495794f95edb37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45e3c45a1f419947ffc204035d9bc51d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6807a43bdc01a4dc8529cbddcb6886aa = $(`<div id="html_6807a43bdc01a4dc8529cbddcb6886aa" style="width: 100.0%; height: 100.0%;"><b>Ingoldingen</b><br>Leistung: 4.2 MW</div>`)[0];
+                popup_45e3c45a1f419947ffc204035d9bc51d.setContent(html_6807a43bdc01a4dc8529cbddcb6886aa);
+            
+        
+
+        marker_183c1b906fa62c5536cd5903fbbb052d.bindPopup(popup_45e3c45a1f419947ffc204035d9bc51d)
+        ;
+
+        
+    
+    
+                marker_183c1b906fa62c5536cd5903fbbb052d.setIcon(icon_4330ff31662ec3e9ff495794f95edb37);
+            
+    
+            var marker_22df280cf64edd520242f5850cb13f7d = L.marker(
+                [48.0984413, 9.7899938],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ae77a437ad000dfd271daf76596a45e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_256dca0be17f311fa68a51b4f1dff621 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_490fcab5c43b3a6881301a1f53dbc055 = $(`<div id="html_490fcab5c43b3a6881301a1f53dbc055" style="width: 100.0%; height: 100.0%;"><b>Biberach </b><br>Leistung: 0.45 MW</div>`)[0];
+                popup_256dca0be17f311fa68a51b4f1dff621.setContent(html_490fcab5c43b3a6881301a1f53dbc055);
+            
+        
+
+        marker_22df280cf64edd520242f5850cb13f7d.bindPopup(popup_256dca0be17f311fa68a51b4f1dff621)
+        ;
+
+        
+    
+    
+                marker_22df280cf64edd520242f5850cb13f7d.setIcon(icon_ae77a437ad000dfd271daf76596a45e6);
+            
+    
+            var marker_9ac2b9394d2157f377183792c6758986 = L.marker(
+                [48.0146714, 10.0325434],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_4a690742d857067fe1509a71547ead48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d10c4a90a953e9ed7a2fb4de552e3e0f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9d8d4f77d947b7551c1802d8782388a1 = $(`<div id="html_9d8d4f77d947b7551c1802d8782388a1" style="width: 100.0%; height: 100.0%;"><b>Rot an der Rot</b><br>Leistung: 8.0 MW</div>`)[0];
+                popup_d10c4a90a953e9ed7a2fb4de552e3e0f.setContent(html_9d8d4f77d947b7551c1802d8782388a1);
+            
+        
+
+        marker_9ac2b9394d2157f377183792c6758986.bindPopup(popup_d10c4a90a953e9ed7a2fb4de552e3e0f)
+        ;
+
+        
+    
+    
+                marker_9ac2b9394d2157f377183792c6758986.setIcon(icon_4a690742d857067fe1509a71547ead48);
+            
+    
+            var marker_2aae05b2c00ab9c83073ec501369eeef = L.marker(
+                [47.9402325, 10.0904199],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ac792da4c0ccf5c28ccee8a856c9de7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac3ed921d010396f1d7b636eac1c57ab = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6d9e99192d412f8eb62ff3138783ffa8 = $(`<div id="html_6d9e99192d412f8eb62ff3138783ffa8" style="width: 100.0%; height: 100.0%;"><b>Aitrach</b><br>Leistung: 1.5 MW</div>`)[0];
+                popup_ac3ed921d010396f1d7b636eac1c57ab.setContent(html_6d9e99192d412f8eb62ff3138783ffa8);
+            
+        
+
+        marker_2aae05b2c00ab9c83073ec501369eeef.bindPopup(popup_ac3ed921d010396f1d7b636eac1c57ab)
+        ;
+
+        
+    
+    
+                marker_2aae05b2c00ab9c83073ec501369eeef.setIcon(icon_ac792da4c0ccf5c28ccee8a856c9de7b);
+            
+    
+            var marker_462cbf463f23e131071d8ac7289dd9e9 = L.marker(
+                [47.8262099, 10.0159697],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_ab443b355f626f6ceee5a06f88d392e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_30dd5e3ec559a46ca7b883478cac8138 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_054d3a6990205363d525b2eab39a4888 = $(`<div id="html_054d3a6990205363d525b2eab39a4888" style="width: 100.0%; height: 100.0%;"><b>Leutkirch</b><br>Leistung: 4.9 MW</div>`)[0];
+                popup_30dd5e3ec559a46ca7b883478cac8138.setContent(html_054d3a6990205363d525b2eab39a4888);
+            
+        
+
+        marker_462cbf463f23e131071d8ac7289dd9e9.bindPopup(popup_30dd5e3ec559a46ca7b883478cac8138)
+        ;
+
+        
+    
+    
+                marker_462cbf463f23e131071d8ac7289dd9e9.setIcon(icon_ab443b355f626f6ceee5a06f88d392e4);
+            
+    
+            var marker_260169e21591ebb363111f4501d0fd6c = L.marker(
+                [47.8044, 10.2166],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_15d79535d10b486f96a434ca24c30e9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_818920a85535bbc00e30b1df00afff13 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_af47760e5caa7d21667c3744c7868683 = $(`<div id="html_af47760e5caa7d21667c3744c7868683" style="width: 100.0%; height: 100.0%;"><b>Altusried Kimratshofen</b></div>`)[0];
+                popup_818920a85535bbc00e30b1df00afff13.setContent(html_af47760e5caa7d21667c3744c7868683);
+            
+        
+
+        marker_260169e21591ebb363111f4501d0fd6c.bindPopup(popup_818920a85535bbc00e30b1df00afff13)
+        ;
+
+        
+    
+    
+                marker_260169e21591ebb363111f4501d0fd6c.setIcon(icon_15d79535d10b486f96a434ca24c30e9b);
+            
+    
+            var marker_e4e5eb3e39c9f2961977053b40fac5ed = L.marker(
+                [47.6856552, 9.8342247],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_68c8e72f229b16d58638ce00ff991f14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f02cae2f61c7f22ac3670120d2152d1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_be98b51f921b441e9c19fa0199ba970a = $(`<div id="html_be98b51f921b441e9c19fa0199ba970a" style="width: 100.0%; height: 100.0%;"><b>Wangen </b></div>`)[0];
+                popup_5f02cae2f61c7f22ac3670120d2152d1.setContent(html_be98b51f921b441e9c19fa0199ba970a);
+            
+        
+
+        marker_e4e5eb3e39c9f2961977053b40fac5ed.bindPopup(popup_5f02cae2f61c7f22ac3670120d2152d1)
+        ;
+
+        
+    
+    
+                marker_e4e5eb3e39c9f2961977053b40fac5ed.setIcon(icon_68c8e72f229b16d58638ce00ff991f14);
+            
+    
+            var marker_a2ceabc9fe2c5f6738e8ad8a5933230f = L.marker(
+                [48.1376, 9.354557],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_5ebd83ed9a695c1c7aee1788b2ac9f4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97112994f9c79291a29b5997e621975f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8a17aaa6934e42359fad27537175112e = $(`<div id="html_8a17aaa6934e42359fad27537175112e" style="width: 100.0%; height: 100.0%;"><b>Langenenslingen-Wilfingen</b></div>`)[0];
+                popup_97112994f9c79291a29b5997e621975f.setContent(html_8a17aaa6934e42359fad27537175112e);
+            
+        
+
+        marker_a2ceabc9fe2c5f6738e8ad8a5933230f.bindPopup(popup_97112994f9c79291a29b5997e621975f)
+        ;
+
+        
+    
+    
+                marker_a2ceabc9fe2c5f6738e8ad8a5933230f.setIcon(icon_5ebd83ed9a695c1c7aee1788b2ac9f4e);
+            
+    
+            var marker_b2d2dfc2b4ca3c66dfb7dd80e8d2b710 = L.marker(
+                [48.0256189, 8.6016372],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_11b61b5f1612088d6f9793a3319c6058 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6b91efd37b0e280d34bf8b8d5a9bf46 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ee9ae1e0f203239e05d836b75a9f1131 = $(`<div id="html_ee9ae1e0f203239e05d836b75a9f1131" style="width: 100.0%; height: 100.0%;"><b>Tuningen</b><br>Leistung: 4.4 MW</div>`)[0];
+                popup_e6b91efd37b0e280d34bf8b8d5a9bf46.setContent(html_ee9ae1e0f203239e05d836b75a9f1131);
+            
+        
+
+        marker_b2d2dfc2b4ca3c66dfb7dd80e8d2b710.bindPopup(popup_e6b91efd37b0e280d34bf8b8d5a9bf46)
+        ;
+
+        
+    
+    
+                marker_b2d2dfc2b4ca3c66dfb7dd80e8d2b710.setIcon(icon_11b61b5f1612088d6f9793a3319c6058);
+            
+    
+            var marker_433e85192f731c16fcce6d6225d0c9f8 = L.marker(
+                [48.0248356, 8.8894883],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_b0a5484623bc80fb949cd2760adfd275 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c81e347c38467b542e42b841c15547eb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_97128f3c1a4ddcb863de9fca91f4120d = $(`<div id="html_97128f3c1a4ddcb863de9fca91f4120d" style="width: 100.0%; height: 100.0%;"><b>Mühlheim an der Donau</b></div>`)[0];
+                popup_c81e347c38467b542e42b841c15547eb.setContent(html_97128f3c1a4ddcb863de9fca91f4120d);
+            
+        
+
+        marker_433e85192f731c16fcce6d6225d0c9f8.bindPopup(popup_c81e347c38467b542e42b841c15547eb)
+        ;
+
+        
+    
+    
+                marker_433e85192f731c16fcce6d6225d0c9f8.setIcon(icon_b0a5484623bc80fb949cd2760adfd275);
+            
+    
+            var marker_7f29964f776c59df3cdf332256e098e0 = L.marker(
+                [49.5222974, 9.3243187],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_086bdd7a10f80d5f25e1007aef3bcd84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20a25796e1e6b9197e0d3ef099697ba1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_051443464a46a2bfa14111a44e891c23 = $(`<div id="html_051443464a46a2bfa14111a44e891c23" style="width: 100.0%; height: 100.0%;"><b>Buchheim</b></div>`)[0];
+                popup_20a25796e1e6b9197e0d3ef099697ba1.setContent(html_051443464a46a2bfa14111a44e891c23);
+            
+        
+
+        marker_7f29964f776c59df3cdf332256e098e0.bindPopup(popup_20a25796e1e6b9197e0d3ef099697ba1)
+        ;
+
+        
+    
+    
+                marker_7f29964f776c59df3cdf332256e098e0.setIcon(icon_086bdd7a10f80d5f25e1007aef3bcd84);
+            
+    
+            var marker_e58aad235a1d5e5fe052467275ae4781 = L.marker(
+                [48.0438138, 9.0117958],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_26c7ed2d192283af78d30806692a1d8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee0e6032a9b643601c06c909cc3e97d5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_32b3856fded7556e7379dadbe435b3e1 = $(`<div id="html_32b3856fded7556e7379dadbe435b3e1" style="width: 100.0%; height: 100.0%;"><b>Leibertingen </b><br>Leistung: 4.9 MW</div>`)[0];
+                popup_ee0e6032a9b643601c06c909cc3e97d5.setContent(html_32b3856fded7556e7379dadbe435b3e1);
+            
+        
+
+        marker_e58aad235a1d5e5fe052467275ae4781.bindPopup(popup_ee0e6032a9b643601c06c909cc3e97d5)
+        ;
+
+        
+    
+    
+                marker_e58aad235a1d5e5fe052467275ae4781.setIcon(icon_26c7ed2d192283af78d30806692a1d8e);
+            
+    
+            var marker_9aa760b148ea7f77d2614775628c9647 = L.marker(
+                [49.9675456, 7.8944],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_938484e293c623f7e70fba00e3a1904e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f6cd2747da020d7559719d813c272b3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_828c46b758f5abe7118865206de72636 = $(`<div id="html_828c46b758f5abe7118865206de72636" style="width: 100.0%; height: 100.0%;"><b>Bingen</b><br>Leistung: 2.8 MW</div>`)[0];
+                popup_5f6cd2747da020d7559719d813c272b3.setContent(html_828c46b758f5abe7118865206de72636);
+            
+        
+
+        marker_9aa760b148ea7f77d2614775628c9647.bindPopup(popup_5f6cd2747da020d7559719d813c272b3)
+        ;
+
+        
+    
+    
+                marker_9aa760b148ea7f77d2614775628c9647.setIcon(icon_938484e293c623f7e70fba00e3a1904e);
+            
+    
+            var marker_5e5e885c22d7e52af3eede2dcd032b61 = L.marker(
+                [48.0438138, 9.0117958],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_14e76b8275d2678b13f2a69cd97570f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2774999b7cf19e962d886fdfb54327d5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_14bd658d2b151ec4dbcbc7345d89ee6b = $(`<div id="html_14bd658d2b151ec4dbcbc7345d89ee6b" style="width: 100.0%; height: 100.0%;"><b>Leibertingen</b><br>Leistung: 2.08 MW</div>`)[0];
+                popup_2774999b7cf19e962d886fdfb54327d5.setContent(html_14bd658d2b151ec4dbcbc7345d89ee6b);
+            
+        
+
+        marker_5e5e885c22d7e52af3eede2dcd032b61.bindPopup(popup_2774999b7cf19e962d886fdfb54327d5)
+        ;
+
+        
+    
+    
+                marker_5e5e885c22d7e52af3eede2dcd032b61.setIcon(icon_14e76b8275d2678b13f2a69cd97570f7);
+            
+    
+            var marker_50dabcf838cb5b0389c8e978cad0b3ce = L.marker(
+                [48.0716032, 9.1759679],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c081de53329d9661f58173a3931ecafc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_679f099c31fa96031417587da762bf25 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3e6f974614a03dbe691178b907203392 = $(`<div id="html_3e6f974614a03dbe691178b907203392" style="width: 100.0%; height: 100.0%;"><b>Inzigkofen</b><br>Leistung: 7.5 MW</div>`)[0];
+                popup_679f099c31fa96031417587da762bf25.setContent(html_3e6f974614a03dbe691178b907203392);
+            
+        
+
+        marker_50dabcf838cb5b0389c8e978cad0b3ce.bindPopup(popup_679f099c31fa96031417587da762bf25)
+        ;
+
+        
+    
+    
+                marker_50dabcf838cb5b0389c8e978cad0b3ce.setIcon(icon_c081de53329d9661f58173a3931ecafc);
+            
+    
+            var marker_24e36bb28e1c24bfba634f0ac0dbf62c = L.marker(
+                [48.0787619, 9.1141254],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_841fd7449fe5b71e88b4943b3ce420f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57538f1841ed5c3419cb1cad96f62340 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_727e34935493b66f7dc1331df6478c4f = $(`<div id="html_727e34935493b66f7dc1331df6478c4f" style="width: 100.0%; height: 100.0%;"><b>Sigmaringen-Gutenstein</b></div>`)[0];
+                popup_57538f1841ed5c3419cb1cad96f62340.setContent(html_727e34935493b66f7dc1331df6478c4f);
+            
+        
+
+        marker_24e36bb28e1c24bfba634f0ac0dbf62c.bindPopup(popup_57538f1841ed5c3419cb1cad96f62340)
+        ;
+
+        
+    
+    
+                marker_24e36bb28e1c24bfba634f0ac0dbf62c.setIcon(icon_841fd7449fe5b71e88b4943b3ce420f7);
+            
+    
+            var marker_ddd99ec1a526bcdb2a6c991e525f4303 = L.marker(
+                [47.9333, 8.88333],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_13508dc83a09f2fe8f9cf9898f2d7b82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24c5bc5b5a72387246bf7349a19a4df3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f72bb7936c9ff96faa7704fb18468e29 = $(`<div id="html_f72bb7936c9ff96faa7704fb18468e29" style="width: 100.0%; height: 100.0%;"><b>Emmingen-Liptingen</b><br>Leistung: 17.3 MW</div>`)[0];
+                popup_24c5bc5b5a72387246bf7349a19a4df3.setContent(html_f72bb7936c9ff96faa7704fb18468e29);
+            
+        
+
+        marker_ddd99ec1a526bcdb2a6c991e525f4303.bindPopup(popup_24c5bc5b5a72387246bf7349a19a4df3)
+        ;
+
+        
+    
+    
+                marker_ddd99ec1a526bcdb2a6c991e525f4303.setIcon(icon_13508dc83a09f2fe8f9cf9898f2d7b82);
+            
+    
+            var marker_007d27ceebbb3cb7c069395b2e2a969f = L.marker(
+                [49.7894542, 6.5906612],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_bcf02066145ff3a1a1f2c72081b9019b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_740126e77eaa98f6a0f169bceabc5488 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8f8f3eb464f1abf7efcae35bb842969c = $(`<div id="html_8f8f3eb464f1abf7efcae35bb842969c" style="width: 100.0%; height: 100.0%;"><b>Aach</b></div>`)[0];
+                popup_740126e77eaa98f6a0f169bceabc5488.setContent(html_8f8f3eb464f1abf7efcae35bb842969c);
+            
+        
+
+        marker_007d27ceebbb3cb7c069395b2e2a969f.bindPopup(popup_740126e77eaa98f6a0f169bceabc5488)
+        ;
+
+        
+    
+    
+                marker_007d27ceebbb3cb7c069395b2e2a969f.setIcon(icon_bcf02066145ff3a1a1f2c72081b9019b);
+            
+    
+            var marker_118543ca965bc05ad52ab57a94e8c05d = L.marker(
+                [47.8187346, 8.8132338],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c213480a8ed9be1eb11db737416cf062 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aedab57d967580dcdd6298f9e146943e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e20f71afe462383d6296e759ab84ba11 = $(`<div id="html_e20f71afe462383d6296e759ab84ba11" style="width: 100.0%; height: 100.0%;"><b>Mühlhausen-Ehingen</b><br>Leistung: 8.8 MW</div>`)[0];
+                popup_aedab57d967580dcdd6298f9e146943e.setContent(html_e20f71afe462383d6296e759ab84ba11);
+            
+        
+
+        marker_118543ca965bc05ad52ab57a94e8c05d.bindPopup(popup_aedab57d967580dcdd6298f9e146943e)
+        ;
+
+        
+    
+    
+                marker_118543ca965bc05ad52ab57a94e8c05d.setIcon(icon_c213480a8ed9be1eb11db737416cf062);
+            
+    
+            var marker_c400bde491cacd44b3ca6bc119d8bc81 = L.marker(
+                [48.0256189, 8.6016372],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_c6cabe91f99a096c4e01c9ba23cef61c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75a892ff45addacbb40a457c3f721e2f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1a5dfbdbc0df1e371a83bdb9e5df2703 = $(`<div id="html_1a5dfbdbc0df1e371a83bdb9e5df2703" style="width: 100.0%; height: 100.0%;"><b>Tuningen</b><br>Leistung: 4.4 MW</div>`)[0];
+                popup_75a892ff45addacbb40a457c3f721e2f.setContent(html_1a5dfbdbc0df1e371a83bdb9e5df2703);
+            
+        
+
+        marker_c400bde491cacd44b3ca6bc119d8bc81.bindPopup(popup_75a892ff45addacbb40a457c3f721e2f)
+        ;
+
+        
+    
+    
+                marker_c400bde491cacd44b3ca6bc119d8bc81.setIcon(icon_c6cabe91f99a096c4e01c9ba23cef61c);
+            
+    
+            var marker_e8ce450c9665a45780679a0c6cb5682e = L.marker(
+                [47.8839004, 8.3446627],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_0aa9bb94245a0ebcfb92e57f9649dae3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a77d60749ef6e2f7d4d36dbbc646a560 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_78d2b6e8b64d0ae8c5b9cead763daac0 = $(`<div id="html_78d2b6e8b64d0ae8c5b9cead763daac0" style="width: 100.0%; height: 100.0%;"><b>Löffingen</b><br>Leistung: 2.7 MW</div>`)[0];
+                popup_a77d60749ef6e2f7d4d36dbbc646a560.setContent(html_78d2b6e8b64d0ae8c5b9cead763daac0);
+            
+        
+
+        marker_e8ce450c9665a45780679a0c6cb5682e.bindPopup(popup_a77d60749ef6e2f7d4d36dbbc646a560)
+        ;
+
+        
+    
+    
+                marker_e8ce450c9665a45780679a0c6cb5682e.setIcon(icon_0aa9bb94245a0ebcfb92e57f9649dae3);
+            
+    
+            var marker_038e72bdf6c5be1c32a21b302ea0c076 = L.marker(
+                [48.0512198, 8.2073776],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_22779f1fbc1294e84985d529ee80376f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_355e30d56b23f2592aad0de3f98a0938 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c6d799780b295081f049c553afd77dd0 = $(`<div id="html_c6d799780b295081f049c553afd77dd0" style="width: 100.0%; height: 100.0%;"><b>Furtwangen</b></div>`)[0];
+                popup_355e30d56b23f2592aad0de3f98a0938.setContent(html_c6d799780b295081f049c553afd77dd0);
+            
+        
+
+        marker_038e72bdf6c5be1c32a21b302ea0c076.bindPopup(popup_355e30d56b23f2592aad0de3f98a0938)
+        ;
+
+        
+    
+    
+                marker_038e72bdf6c5be1c32a21b302ea0c076.setIcon(icon_22779f1fbc1294e84985d529ee80376f);
+            
+    
+            var marker_4556c5837da7b0e90abe11149ec1e352 = L.marker(
+                [48.1918267, 7.7689368],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_7a7b083e84679188cece7f7054cf3d87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21857055c77ac8eed16a8fccd63d9a71 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ad64cfd29127b79865aa0121706e9bce = $(`<div id="html_ad64cfd29127b79865aa0121706e9bce" style="width: 100.0%; height: 100.0%;"><b>Kenzingen</b><br>Leistung: 2.6 MW</div>`)[0];
+                popup_21857055c77ac8eed16a8fccd63d9a71.setContent(html_ad64cfd29127b79865aa0121706e9bce);
+            
+        
+
+        marker_4556c5837da7b0e90abe11149ec1e352.bindPopup(popup_21857055c77ac8eed16a8fccd63d9a71)
+        ;
+
+        
+    
+    
+                marker_4556c5837da7b0e90abe11149ec1e352.setIcon(icon_7a7b083e84679188cece7f7054cf3d87);
+            
+    
+            var marker_7ac1d391da28a97b0000dfcf4c7605f9 = L.marker(
+                [48.0578573, 7.7790038],
+                {
+}
+            ).addTo(map_28d4ed873948339ca47b1a6716dadbf5);
+        
+    
+            var icon_e6c7b402e2996759918c2da54e426960 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2edef3a73991863015d0a9cd726380db = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f09c8e980d7f33d4351f3609b138776c = $(`<div id="html_f09c8e980d7f33d4351f3609b138776c" style="width: 100.0%; height: 100.0%;"><b>March</b><br>Leistung: 0.9 MW</div>`)[0];
+                popup_2edef3a73991863015d0a9cd726380db.setContent(html_f09c8e980d7f33d4351f3609b138776c);
+            
+        
+
+        marker_7ac1d391da28a97b0000dfcf4c7605f9.bindPopup(popup_2edef3a73991863015d0a9cd726380db)
+        ;
+
+        
+    
+    
+                marker_7ac1d391da28a97b0000dfcf4c7605f9.setIcon(icon_e6c7b402e2996759918c2da54e426960);
+            
+</script>
+</html>
